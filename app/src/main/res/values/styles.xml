@@ -1,11 +1,65 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+
+    </style>
+    <style name="wrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/medievalsharp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        
+    </style>
+    <style name="categories">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
+        <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
+    </style>
+
+    <style name="imageStyle">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:maxHeight">@dimen/maxImageHeight</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="introText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:textSize">@dimen/introTextSize</item>
+        <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
+        <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
+
+    </style>
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
     </style>
 
 </resources>

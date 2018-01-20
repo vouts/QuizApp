@@ -1,14 +1,30 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">Shadow challenge</string>
 
     <!-- Start of main activity -->
+    <string name="title">SHADOW CHALLENGE</string>
+
+    <string name="introText">
+        You just woke up from a scary dream.\n
+        As you open your eyes you look around and you find yourself trapped into a small dark room.\n
+        The room is empty and on the other side of the room you see a shadow with large green eyes looking at you.\n
+        Suddenly the shadow starts speaking: \nHello stranger. I am Zurtok the mighty and you are my prisoner.
+        If you want to leave this room alive you must answer correctly my six questions.\n
+        If you fail you will die...\n
+        You can however choose the category of the answers. \nDecide wisely as your life depends on it....
+    </string>
+
+    <string name="nameTitle">Tell me your name stranger...</string>
+    <string name="nameDescription">Enter Your name</string>
+
+    <string name="categoryTitle">Choose your Category: </string>
     <string-array name="Categories">
         <item>History</item>
         <item>Sports</item>
         <item>Space</item>
         <item>Nature</item>
     </string-array>
-    <string name="getStartedBtn">Get Started</string>
+    <string name="getStartedBtn">Begin</string>
     <!-- End of main activity -->
     <!-- Start of first question -->
     <string name="firstQuestion">This is my first qestion</string>

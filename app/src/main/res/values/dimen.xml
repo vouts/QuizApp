@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopBorder">16dp</dimen>
+    <dimen name="marginSideBorder">16dp</dimen>
+    <dimen name="maxImageHeight">200dp</dimen>
+    <dimen name="introTextSize">14sp</dimen>
+    <dimen name="titleTextSize">36sp</dimen>
+</resources>
