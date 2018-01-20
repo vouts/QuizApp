@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">QuizApp</string>
+
+    <!-- Start of main activity -->
+    <string-array name="Categories">
+        <item>History</item>
+        <item>Sports</item>
+        <item>Space</item>
+        <item>Nature</item>
+    </string-array>
+    <string name="getStartedBtn">Get Started</string>
+    <!-- End of main activity -->
+    <!-- Start of first question -->
+    <string name="firstQuestion">This is my first qestion</string>
+    <string name="firstQuestionAnswerOne">Answer 1</string>
+    <string name="firstQuestionAnswerTwo">Answer 2</string>
+    <string name="firstQuestionAnswerThree">Answer 3</string>
+    <string name="firstQuestionAnswerFour">Answer 4</string>
+    <!-- End of first question -->
+
 </resources>

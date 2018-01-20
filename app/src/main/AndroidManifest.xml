@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".History" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Space" />
+        <activity android:name=".Nature"></activity>
     </application>
 
 </manifest>
