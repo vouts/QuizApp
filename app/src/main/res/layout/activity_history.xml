@@ -1,9 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
     tools:context="com.example.android.quizapp.History">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout style="@style/categoryWrapper">
+        <RelativeLayout
+            style="@style/categoryTitleWrapper">
+            <ImageView
+                style="@style/categoryImageStyle"
+                android:id="@+id/categoryImage"
+                android:src="@drawable/history" />
+
+            <TextView
+                style="@style/categoryIntroText"
+                android:id="@+id/categoryIntro"
+                android:text="@string/historyIntro"/>
+
+            <ImageView
+                style="@style/categoryIconStyle"
+                android:src="@drawable/arrowcircle"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/wrapper">
+            
+            <LinearLayout
+                style="@style/questionBox">
+
+                <TextView
+                    style="@style/questionStyle"
+                    android:text="@string/historyFirstQuestion"/>
+
+                <View
+                style="@style/viewStyle" />
+
+                <RadioGroup
+                    style="@style/radioGroup">
+
+
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:id="@+id/answerOne"
+                        android:text="@string/historyFirstQuestionAnswerOne" />
+
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:id="@+id/answerTwo"
+                        android:text="@string/historyFirstQuestionAnswerTwo" />
+
+
+
+
+
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:id="@+id/answerThree"
+                        android:text="@string/historyFirstQuestionAnswerOne" />
+
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:id="@+id/answerFour"
+                        android:text="@string/historyFirstQuestionAnswerTwo" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/questionBox">
+
+                <TextView
+                    style="@style/questionStyle"
+                    android:text="@string/historySecondQuestion"/>
+
+                <View
+                    style="@style/viewStyle" />
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/editTextAnswerStyle"
+                    android:hint="@string/historySecondQuestionAnswer"
+                    android:inputType="textCapWords" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -10,10 +10,17 @@
         <item name="colorControlNormal">@color/colorPrimaryDark</item>
 
     </style>
+
     <style name="wrapper">
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="categoryTitleWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
     <style name="title">
         <item name="android:layout_width">match_parent</item>
@@ -24,12 +31,38 @@
         <item name="android:textSize">@dimen/titleTextSize</item>
         
     </style>
-    <style name="categories">
+    <style name="editTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/editTexHeight</item>
+        <item name="android:textSize">@dimen/editTextSize</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_marginLeft">@dimen/editTextMarginLeft</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/spinnerHeight</item>
+        <item name="android:textSize">@dimen/spinnerTextSize</item>
+        <item name="android:layout_marginBottom">@dimen/spinnerMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/spinnerMarginLeft</item>
+        <item name="android:gravity">left|center_horizontal</item>
+    </style>
+
+    <style name="Name">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
+        <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
+    </style>
+    <style name="categories">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopSpinnerBox</item>
         <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
         <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
     </style>
@@ -43,6 +76,7 @@
         <item name="android:maxHeight">@dimen/maxImageHeight</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
+
     <style name="introText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -54,6 +88,19 @@
         <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
 
     </style>
+    <style name="categoryIntroText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:textSize">@dimen/introTextSize</item>
+        <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
+        <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
+        <item name="android:layout_below">@id/categoryImage</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+    </style>
     <style name="textStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -62,4 +109,72 @@
         <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
     </style>
 
+    <style name="categoryWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="categoryImageStyle">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+        <item name="android:maxHeight">@dimen/maxCategoryImageHeight</item>
+        <item name="android:layout_centerHorizontal">true</item>>
+    </style>
+    <style name="categoryIconStyle">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:layout_marginTop">@dimen/iconMargin</item>
+        <item name="android:layout_marginBottom">@dimen/iconMargin</item>
+        <item name="android:maxHeight">@dimen/maxCategoryImageHeight</item>
+        <item name="android:layout_below">@id/categoryIntro</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="questionBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:layout_marginTop">@dimen/questionBoxMargin</item>
+        <item name="android:layout_marginBottom">@dimen/questionBoxMargin</item>
+        <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
+        <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
+    </style>
+
+    <style name="questionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:paddingLeft">@dimen/questionPadding</item>
+        <item name="android:paddingRight">@dimen/questionPadding</item>
+    </style>
+    <style name="radioGroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+    </style>
+    <style name="radioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="viewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/viewSize</item>
+        <item name="android:background">@color/colorSecondaryText</item>
+    </style>
+    <style name="editTextAnswerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>

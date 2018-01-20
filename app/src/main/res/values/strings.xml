@@ -5,19 +5,21 @@
     <string name="title">SHADOW CHALLENGE</string>
 
     <string name="introText">
-        You just woke up from a scary dream.\n
-        As you open your eyes you look around and you find yourself trapped into a small dark room.\n
-        The room is empty and on the other side of the room you see a shadow with large green eyes looking at you.\n
-        Suddenly the shadow starts speaking: \nHello stranger. I am Zurtok the mighty and you are my prisoner.
-        If you want to leave this room alive you must answer correctly my six questions.\n
-        If you fail you will die...\n
+        You just woke up from a scary dream.
+        \nAs you open your eyes you look around and you find yourself trapped into a small dark room.
+        \nThe room is empty and on the other side of the room you see a shadow with large green eyes looking at you.
+        \nSuddenly the shadow starts speaking:
+        \nHello stranger.
+        \nI am Zurtok the mighty and you are my prisoner.
+        \nIf you want to leave this room alive you must answer correctly my six questions.
+        \nIf you fail you will die...\n
         You can however choose the category of the answers. \nDecide wisely as your life depends on it....
     </string>
 
-    <string name="nameTitle">Tell me your name stranger...</string>
+    <string name="nameTitle">Tell me your name stranger... :   </string>
     <string name="nameDescription">Enter Your name</string>
 
-    <string name="categoryTitle">Choose your Category: </string>
+    <string name="categoryTitle">Choose your Category:   </string>
     <string-array name="Categories">
         <item>History</item>
         <item>Sports</item>
@@ -25,13 +27,30 @@
         <item>Nature</item>
     </string-array>
     <string name="getStartedBtn">Begin</string>
+    <string name="namecheck">Tell me your Name or suffer the consequences!</string>
     <!-- End of main activity -->
-    <!-- Start of first question -->
-    <string name="firstQuestion">This is my first qestion</string>
-    <string name="firstQuestionAnswerOne">Answer 1</string>
-    <string name="firstQuestionAnswerTwo">Answer 2</string>
-    <string name="firstQuestionAnswerThree">Answer 3</string>
-    <string name="firstQuestionAnswerFour">Answer 4</string>
-    <!-- End of first question -->
+    <!-- Start of history activity -->
+
+    <string name="historyIntro">
+        As long as you chose the category the shadow split into peaces.
+        \nIt changed to all kinds of shapes and sizes.
+        \nFrom tall temples to maps and tools.
+        \Even though the green eyes, that stood at you, disappeared you can still feel the ill intentions of the shadow...
+        \nOnce again Zurtok\'s voice spread through the room, this time coming from all the peaces together.
+        \nI hope for your sake that you chose correctly...
+        \nNow lets begin with the questions..
+    </string>
+
+    <string name="historyFirstQuestion">This is my first qestion. \nWhen did Christopher Columbus reach America for the first time?</string>
+    <string name="historyFirstQuestionAnswerOne">In 1468</string>
+    <string name="historyFirstQuestionAnswerTwo">In 1514</string>
+    <string name="historyFirstQuestionAnswerThree">In 1492</string>
+    <string name="historyFirstQuestionAnswerFour">In 1453</string>
+
+    <string name="historySecondQuestion">Ok. Next... \nWho was the god of thunder in greek mythology?</string>
+    <string name="historySecondQuestionAnswer">Enter your Answer</string>
+
+    <!-- End of history activity -->
+
 
 </resources>

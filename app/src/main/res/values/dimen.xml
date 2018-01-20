@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="marginTopBorder">16dp</dimen>
+    <dimen name="marginTopSpinnerBox">5dp</dimen>
     <dimen name="marginSideBorder">16dp</dimen>
     <dimen name="maxImageHeight">200dp</dimen>
     <dimen name="introTextSize">14sp</dimen>
     <dimen name="titleTextSize">36sp</dimen>
+    <dimen name="editTextSize">14sp</dimen>
+    <dimen name="editTexHeight">16dp</dimen>
+    <dimen name="editTextPadding">0dp</dimen>
+    <dimen name="editTextMarginLeft">4dp</dimen>
+    <dimen name="spinnerTextSize">14sp</dimen>
+    <dimen name="spinnerHeight">14dp</dimen>
+    <dimen name="spinnerMarginBottom">3dp</dimen>
+    <dimen name="spinnerMarginLeft">4dp</dimen>
+    <dimen name="viewSize">3dp</dimen>
+    <dimen name="questionBoxMargin">5dp</dimen>
+    <dimen name="maxCategoryImageHeight">300dp</dimen>
+    <dimen name="iconMargin">40dp</dimen>
+    <dimen name="questionPadding">4dp</dimen>
+
 </resources>
