@@ -83,10 +83,31 @@
                     style="@style/viewStyle" />
 
                 <EditText
-                    android:id="@+id/name"
+                    android:id="@+id/historyQ2"
                     style="@style/editTextAnswerStyle"
                     android:hint="@string/historySecondQuestionAnswer"
                     android:inputType="textCapWords" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/questionBox">
+
+                <TextView
+                    style="@style/questionStyle"
+                    android:text="@string/historyThirdQuestion"/>
+
+                <View
+                    style="@style/viewStyle" />
+
+                <CheckBox
+                    android:id="@+id/god1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/historyThirdQuestionAnswerOne"
+                    android:textAppearance="?android:textAppearanceMedium" />
+
 
 
             </LinearLayout>

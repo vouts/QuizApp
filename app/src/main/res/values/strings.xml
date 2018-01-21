@@ -50,6 +50,9 @@
     <string name="historySecondQuestion">Ok. Next... \nWho was the god of thunder in greek mythology?</string>
     <string name="historySecondQuestionAnswer">Enter your Answer</string>
 
+
+    <string name="historyThirdQuestion">Dont think that i will go easy on you.... The next one is tricky... \nWhich of the names below belong to Viking gods??</string>
+    <string name="historyThirdQuestionAnswerOne">Odin</string>
     <!-- End of history activity -->
 
 
