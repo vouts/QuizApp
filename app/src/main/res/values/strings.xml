@@ -51,8 +51,13 @@
     <string name="historySecondQuestionAnswer">Enter your Answer</string>
 
 
-    <string name="historyThirdQuestion">Dont think that i will go easy on you.... The next one is tricky... \nWhich of the names below belong to Viking gods??</string>
+    <string name="historyThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the names below belong to norse mythology gods?</string>
     <string name="historyThirdQuestionAnswerOne">Odin</string>
+    <string name="historyThirdQuestionAnswerTwo">Fenrir</string>
+    <string name="historyThirdQuestionAnswerThree">Sleipnir</string>
+    <string name="historyThirdQuestionAnswerFour">Baldur</string>
+    <string name="historyThirdQuestionAnswerFive">Freya</string>
+    <string name="historyThirdQuestionAnswerSix">Kvasir</string>
     <!-- End of history activity -->
 
 

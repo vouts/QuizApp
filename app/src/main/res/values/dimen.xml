@@ -19,5 +19,6 @@
     <dimen name="maxCategoryImageHeight">300dp</dimen>
     <dimen name="iconMargin">40dp</dimen>
     <dimen name="questionPadding">4dp</dimen>
+    <dimen name="checkboxMargin">15dp</dimen>
 
 </resources>
