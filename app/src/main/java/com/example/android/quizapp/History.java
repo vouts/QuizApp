@@ -47,6 +47,10 @@ public class History extends AppCompatActivity {
         EditText fourthQuestion =  findViewById(R.id.historyQ4);
         savedInstanceState.putString("Fourth_Question_Selection", fourthQuestion.getText().toString() );
 
+        //Fifth question state
+        RadioGroup fifthQuestion = findViewById(R.id.historyQ5);
+        savedInstanceState.putInt("Fifth_Question_Selection", fifthQuestion.getCheckedRadioButtonId());
+
         super.onSaveInstanceState(savedInstanceState);
 
     }
@@ -85,9 +89,13 @@ public class History extends AppCompatActivity {
             notGod2.setChecked(saveInstanceState.getBoolean("Fifth_Q3_Checkbox"));
             notGod3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
 
-            //Second question state
+            //Fourth question state
             EditText fourthQuestion =  findViewById(R.id.historyQ4);
             fourthQuestion.setText(saveInstanceState.getString("Fourth_Question_Selection"));
+
+            //Fifth question state
+            RadioGroup fifthQuestion = findViewById(R.id.historyQ1);
+            fifthQuestion.check(saveInstanceState.getInt("Fifth_Question_Selection"));
         }
 
     }
