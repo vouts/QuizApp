@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.EditText;
@@ -96,8 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("EXTRA_TYPED_NAME", username);
                 startActivity(intent);
             } catch (ClassNotFoundException ignored) {
-                Toast toast = Toast.makeText(this, "class not found", Toast.LENGTH_SHORT);
-                toast.show();
+                 Log.e("MainActivity", "Class not found");
             }
         } else {
             Toast getName = Toast.makeText(this,R.string.namecheck,Toast.LENGTH_LONG);

@@ -41,7 +41,7 @@
         \nNow lets begin with the questions..
     </string>
 
-    <string name="historyFirstQuestion">This is my first qestion. \nWhen did Christopher Columbus reach America for the first time?</string>
+    <string name="historyFirstQuestion">This is my first question. \nWhen did Christopher Columbus reach America for the first time?</string>
     <string name="historyFirstQuestionAnswerOne">In 1468</string>
     <string name="historyFirstQuestionAnswerTwo">In 1514</string>
     <string name="historyFirstQuestionAnswerThree">In 1492</string>
@@ -58,6 +58,15 @@
     <string name="historyThirdQuestionAnswerFour">Baldur</string>
     <string name="historyThirdQuestionAnswerFive">Freya</string>
     <string name="historyThirdQuestionAnswerSix">Kvasir</string>
+
+    <string name="historyFourthQuestion">You think you are doing great but...  \nWhich year  did the Berlin wall fell?</string>
+    <string name="historyFourthQuestionAnswer">Enter your Answer</string>
+
+    <string name="historyFifthQuestion">You look tired and we still have two more questions... \nWhat was the purpose of the egyptian pyramids?</string>
+    <string name="historyFifthQuestionAnswerOne">Temple</string>
+    <string name="historyFifthQuestionAnswerTwo">Tomb</string>
+    <string name="historyFifthQuestionAnswerThree">Palace</string>
+    <string name="historyFifthQuestionAnswerFour">Prison</string>
     <!-- End of history activity -->
 
 
