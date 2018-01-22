@@ -196,7 +196,7 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historyThirdQuestion" />
+                    android:text="@string/historySixthQuestion" />
 
                 <View style="@style/viewStyle" />
 
@@ -207,35 +207,35 @@
                         <CheckBox
                             android:id="@+id/eng1"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerOne" />
+                            android:text="@string/historySixthQuestionAnswerOne" />
+
+                        <CheckBox
+                            android:id="@+id/notEng1"
+                            style="@style/checkBox"
+                            android:text="@string/historySixthQuestionAnswerThree" />
 
                         <CheckBox
                             android:id="@+id/eng2"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerThree" />
-
-                        <CheckBox
-                            android:id="@+id/eng3"
-                            style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerFive" />
+                            android:text="@string/historySixthQuestionAnswerFive" />
                     </LinearLayout>
 
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
+                            android:id="@+id/eng3"
+                            style="@style/checkBox"
+                            android:text="@string/historySixthQuestionAnswerTwo" />
+
+                        <CheckBox
+                            android:id="@+id/notEng2"
+                            style="@style/checkBox"
+                            android:text="@string/historySixthQuestionAnswerFour" />
+
+                        <CheckBox
                             android:id="@+id/eng4"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerTwo" />
-
-                        <CheckBox
-                            android:id="@+id/eng5"
-                            style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerFour" />
-
-                        <CheckBox
-                            android:id="@+id/eng6"
-                            style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerSix" />
+                            android:text="@string/historySixthQuestionAnswerSix" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -244,6 +244,15 @@
 
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submit"
+            android:text="@string/submitBtn" />
+
     </LinearLayout>
 
 </ScrollView>

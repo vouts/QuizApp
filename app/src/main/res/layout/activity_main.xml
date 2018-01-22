@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     android:layout_gravity="center_vertical"
+    android:background="@color/colorPrimary"
     tools:context="com.example.android.quizapp.MainActivity">
 
-    <LinearLayout
-        style="@style/wrapper">
+    <LinearLayout style="@style/wrapper">
 
         <TextView
             style="@style/title"
@@ -24,11 +23,11 @@
             style="@style/introText"
             android:text="@string/introText" />
 
-        <LinearLayout
-            style="@style/Name">
+        <LinearLayout style="@style/Name">
+
             <TextView
                 style="@style/textStyle"
-                android:text="@string/nameTitle"/>
+                android:text="@string/nameTitle" />
 
             <EditText
                 android:id="@+id/name"
@@ -38,27 +37,23 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            style="@style/categories">
+        <LinearLayout style="@style/categories">
+
             <TextView
                 style="@style/textStyle"
-                android:text="@string/categoryTitle"/>
+                android:text="@string/categoryTitle" />
 
             <Spinner
                 android:id="@+id/categories"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/spinnerStyle"
                 android:entries="@array/Categories" />
 
         </LinearLayout>
 
 
-
         <Button
             android:id="@+id/startBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            style="@style/btnStyle"
             android:onClick="GetStarted"
             android:text="@string/getStartedBtn" />
     </LinearLayout>

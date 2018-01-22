@@ -74,9 +74,10 @@ public class MainActivity extends AppCompatActivity {
      *
      * */
     public void GetStarted(View view) {
-        //1.
+
         EditText name =  findViewById(R.id.name);
         username = name.getText().toString();
+        //1.
         if(username.length()>0) {
             //2.
             Spinner start = (Spinner) findViewById(R.id.categories);

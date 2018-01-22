@@ -17,11 +17,7 @@
         <item name="android:orientation">vertical</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
-    <style name="categoryTitleWrapper">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_centerHorizontal">true</item>
-    </style>
+
     <style name="title">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -29,8 +25,9 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/colorPrimaryText</item>
         <item name="android:textSize">@dimen/titleTextSize</item>
-        
+
     </style>
+
     <style name="editTextStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/editTexHeight</item>
@@ -41,7 +38,7 @@
 
     <style name="spinnerStyle">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">@dimen/spinnerHeight</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/spinnerTextSize</item>
         <item name="android:layout_marginBottom">@dimen/spinnerMarginBottom</item>
         <item name="android:layout_marginLeft">@dimen/spinnerMarginLeft</item>
@@ -57,6 +54,7 @@
         <item name="android:layout_marginLeft">@dimen/marginSideBorder</item>
         <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
     </style>
+
     <style name="categories">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -88,6 +86,21 @@
         <item name="android:layout_marginRight">@dimen/marginSideBorder</item>
 
     </style>
+
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
+    </style>
+
+    <style name="btnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
     <style name="categoryIntroText">
         <item name="android:adjustViewBounds">true</item>
         <item name="android:maxWidth">400dp</item>
@@ -102,19 +115,18 @@
         <item name="android:layout_centerHorizontal">true</item>
 
     </style>
-    <style name="textStyle">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorPrimaryText</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
-    </style>
 
     <style name="categoryWrapper">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="categoryTitleWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
     </style>
 
     <style name="categoryImageStyle">
@@ -126,6 +138,7 @@
         <item name="android:maxHeight">@dimen/maxCategoryImageHeight</item>
         <item name="android:layout_centerHorizontal">true</item>>
     </style>
+
     <style name="categoryIconStyle">
         <item name="android:adjustViewBounds">true</item>
         <item name="android:layout_width">wrap_content</item>
@@ -158,40 +171,48 @@
         <item name="android:paddingLeft">@dimen/questionPadding</item>
         <item name="android:paddingRight">@dimen/questionPadding</item>
     </style>
+
     <style name="radioGroup">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">@dimen/marginTopBorder</item>
     </style>
+
     <style name="radioButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+
     <style name="viewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/viewSize</item>
         <item name="android:background">@color/colorPrimaryDark</item>
     </style>
+
     <style name="editTextAnswerStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
     </style>
+
     <style name="checkBoxContainer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
+
     <style name="CheckboxColumn">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
         <item name="android:layout_marginRight">@dimen/checkboxMargin</item>
         <item name="android:layout_marginLeft">@dimen/checkboxMargin</item>
     </style>
+
     <style name="checkBox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
