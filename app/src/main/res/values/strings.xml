@@ -79,7 +79,42 @@
     <string name="historySixthQuestionAnswerFive">British Virgin Islands</string>
     <string name="historySixthQuestionAnswerSix">Cayman Islands</string>
     <!-- End of history activity -->
+    <!-- Start of nature activity -->
 
+    <string name="natureIntro">
+        After choosing the category the shadow split into pieces.
+        \nIt changed in to all kinds of shapes and sizes.
+        \nFrom tall trees to black fire and symbols.
+        \nAlthough the green eyes that were starring at you disappeared into the darkness, you can still feel the ill intentions of the shadow...
+        \nOnce again Zurtok\'s voice spread through the room, echoing from all the pieces combined.
+        \nFor your sake I hope you chose correctly...
+        \nNow lets begin with the questions..
+    </string>
+    <!-- End of nature activity -->
+    <!-- Start of space activity -->
+
+    <string name="spaceIntro">
+        After choosing the category the shadow split into pieces.
+        \nIt changed in to all kinds of shapes and sizes.
+        \nFrom big planets to satellites fire and missiles.
+        \nAlthough the green eyes that were starring at you disappeared into the darkness, you can still feel the ill intentions of the shadow...
+        \nOnce again Zurtok\'s voice spread through the room, echoing from all the pieces combined.
+        \nFor your sake I hope you chose correctly...
+        \nNow lets begin with the questions..
+    </string>
+    <!-- End of space activity -->
+    <!-- Start of sports activity -->
+
+    <string name="sportsIntro">
+        After choosing the category the shadow split into pieces.
+        \nIt changed in to all kinds of shapes and sizes.
+        \nPeople started running, jumping obstacles, swimming and dancing.
+        \nAlthough the green eyes that were starring at you disappeared into the darkness, you can still feel the ill intentions of the shadow...
+        \nOnce again Zurtok\'s voice spread through the room, echoing from all the pieces combined.
+        \nFor your sake I hope you chose correctly...
+        \nNow lets begin with the questions..
+    </string>
+    <!-- End of sports activity -->
 
     <string name="submitBtn">Submit your answers</string>
     <string name="answerAllQuestions">Answer all questions!!</string>
