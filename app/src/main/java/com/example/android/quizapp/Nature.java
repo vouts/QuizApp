@@ -69,7 +69,6 @@ public class Nature extends AppCompatActivity {
         savedInstanceState.putInt("Sixth_Question_Selection", sixthQuestion.getCheckedRadioButtonId());
 
 
-
         super.onSaveInstanceState(savedInstanceState);
 
     }
@@ -93,7 +92,6 @@ public class Nature extends AppCompatActivity {
             //Second question state
             RadioGroup secondQuestion = findViewById(R.id.natureQ2);
             secondQuestion.check(saveInstanceState.getInt("Second_Question_Selection"));
-
 
 
             //Third question state
@@ -157,9 +155,9 @@ public class Nature extends AppCompatActivity {
                 mammal1 = findViewById(R.id.mammal1),
                 mammal2 = findViewById(R.id.mammal2),
                 mammal3 = findViewById(R.id.mammal3),
-                notMammal1 = findViewById(R.id. notMammal1),
-                notMammal2 = findViewById(R.id. notMammal2),
-                notMammal3 = findViewById(R.id. notMammal3);
+                notMammal1 = findViewById(R.id.notMammal1),
+                notMammal2 = findViewById(R.id.notMammal2),
+                notMammal3 = findViewById(R.id.notMammal3);
         RadioButton secondQuestionSelected = findViewById(secondQuestion.getCheckedRadioButtonId()),
                 sixthQuestionSelected = findViewById(sixthQuestion.getCheckedRadioButtonId());
         ;
@@ -177,7 +175,7 @@ public class Nature extends AppCompatActivity {
 
         }
 
-        if (fourthQuestion.getText().toString().toLowerCase().equals(getString(R.string.natureQ4CorrectAnswer))){
+        if (fourthQuestion.getText().toString().toLowerCase().equals(getString(R.string.natureQ4CorrectAnswer))) {
             result++;
 
         }
@@ -215,9 +213,9 @@ public class Nature extends AppCompatActivity {
                 mammal1 = findViewById(R.id.mammal1),
                 mammal2 = findViewById(R.id.mammal2),
                 mammal3 = findViewById(R.id.mammal3),
-                notMammal1 = findViewById(R.id. notMammal1),
-                notMammal2 = findViewById(R.id. notMammal2),
-                notMammal3 = findViewById(R.id. notMammal3);
+                notMammal1 = findViewById(R.id.notMammal1),
+                notMammal2 = findViewById(R.id.notMammal2),
+                notMammal3 = findViewById(R.id.notMammal3);
 
 
         //Check if RadioGroup views are answered
@@ -240,15 +238,13 @@ public class Nature extends AppCompatActivity {
         return allQuestionsAnswered;
     }
 
-    public void submitNature (View view) {
+    public void submitNature(View view) {
         if (AllQuestionsAnsweredCheck()) {
-            Toast toast = Toast.makeText(this,Integer.toString(calculateResult()),Toast.LENGTH_SHORT );
-            toast.show();
-//            Intent result = new Intent(this, Result.class);
-//            result.putExtra("EXTRA_SELECTED_CATEGORY", category);
-//            result.putExtra("EXTRA_TYPED_NAME", username);
-//            result.putExtra("EXTRA_RESULT", calculateResult());
-//            startActivity(result);
+            Intent result = new Intent(this, Result.class);
+            result.putExtra("EXTRA_SELECTED_CATEGORY", category);
+            result.putExtra("EXTRA_TYPED_NAME", username);
+            result.putExtra("EXTRA_RESULT", calculateResult());
+            startActivity(result);
         } else {
             Toast toast = Toast.makeText(this, R.string.answerAllQuestions, Toast.LENGTH_SHORT);
             toast.show();
