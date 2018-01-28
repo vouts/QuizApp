@@ -10,7 +10,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class Sports extends MainActivity {
+public class Sports extends AppCompatActivity {
     String category, username;
 
 

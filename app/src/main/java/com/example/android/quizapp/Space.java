@@ -10,7 +10,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class Space extends MainActivity {
+public class Space extends AppCompatActivity {
     String category, username;
 
 

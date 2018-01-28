@@ -29,8 +29,8 @@
     <string name="getStartedBtn">Begin</string>
     <string name="namecheck">Tell me your Name or suffer the consequences!</string>
     <!-- End of main activity -->
-    <!-- Start of history activity -->
 
+    <!-- Start of history activity -->
     <string name="historyIntro">
         After choosing the category the shadow split into pieces.
         \nIt changed in to all kinds of shapes and sizes.
@@ -71,7 +71,7 @@
     <string name="historyFifthQuestionAnswerFour">Prison</string>
     <string name="historyQ5CorrectAnswer">Tomb</string>
 
-    <string name="historySixthQuestion">Finally... \nWhich of the countries below are considered UK\ territories?</string>
+    <string name="historySixthQuestion">Finally... \nWhich of the countries below are considered UK territories?</string>
     <string name="historySixthQuestionAnswerOne">Gibraltar</string>
     <string name="historySixthQuestionAnswerTwo">Bermuda</string>
     <string name="historySixthQuestionAnswerThree">Antigua and Barbuda</string>
@@ -79,8 +79,8 @@
     <string name="historySixthQuestionAnswerFive">British Virgin Islands</string>
     <string name="historySixthQuestionAnswerSix">Cayman Islands</string>
     <!-- End of history activity -->
-    <!-- Start of nature activity -->
 
+    <!-- Start of nature activity -->
     <string name="natureIntro">
         After choosing the category the shadow split into pieces.
         \nIt changed in to all kinds of shapes and sizes.
@@ -90,11 +90,47 @@
         \nFor your sake I hope you chose correctly...
         \nNow lets begin with the questions..
     </string>
-    <string name="natureFirstQuestion">This is my first question. \nLemurs are native to only one country on earth. Name it.</string>
-    <string name="natureQ1CorrectAnswer">msadagascar</string>
-    <!-- End of nature activity -->
-    <!-- Start of space activity -->
 
+    <string name="natureFirstQuestion">This is my first question. \nLemurs are native to only one country on earth. Name it.</string>
+    <string name="natureFirstQuestionAnswer">Enter your Answer</string>
+    <string name="natureQ1CorrectAnswer">madagascar</string>
+
+    <string name="natureSecondQuestion">Ok. Next... \nWhich two elements make up water</string>
+    <string name="natureSecondQuestionAnswerOne">Hydrogen and oxygen</string>
+    <string name="natureSecondQuestionAnswerTwo">Sodium and calcium</string>
+    <string name="natureSecondQuestionAnswerThree">Calcium and oxygen</string>
+    <string name="natureSecondQuestionAnswerFour">Hydrogen and sodium</string>
+    <string name="natureQ2CorrectAnswer">Hydrogen and oxygen</string>
+
+    <string name="natureThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the animals below belong to mammals?</string>
+    <string name="natureThirdQuestionAnswerOne">Penguin</string>
+    <string name="natureThirdQuestionAnswerTwo">Pangolin</string>
+    <string name="natureThirdQuestionAnswerThree">White Shark</string>
+    <string name="natureThirdQuestionAnswerFour">cheetah</string>
+    <string name="natureThirdQuestionAnswerFive">Eagle</string>
+    <string name="natureThirdQuestionAnswerSix">Panda</string>
+
+    <string name="natureFourthQuestion">You think you are doing great but...  \nWhich is the fastest animal on earth?</string>
+    <string name="natureFourthQuestionAnswer">Enter your Answer</string>
+    <string name="natureQ4CorrectAnswer">cheetah</string>
+
+    <string name="natureFifthQuestion">You look tired and we still have two more questions... \nWhich of the plants below are fruits?</string>
+    <string name="natureFifthQuestionAnswerOne">Watermelon</string>
+    <string name="natureFifthQuestionAnswerTwo">Banana</string>
+    <string name="natureFifthQuestionAnswerThree">Spinach</string>
+    <string name="natureFifthQuestionAnswerFour">Tomato</string>
+    <string name="natureFifthQuestionAnswerFive">Cabbage</string>
+    <string name="natureFifthQuestionAnswerSix">Potato</string>
+
+    <string name="natureSixthQuestion">Finally... \nHow long does a day last in the north pole</string>
+    <string name="natureSixthQuestionAnswerOne">24 Hours</string>
+    <string name="natureSixthQuestionAnswerTwo">1 Week</string>
+    <string name="natureSixthQuestionAnswerThree">1 Month</string>
+    <string name="natureSixthQuestionAnswerFour">6 Months</string>
+    <string name="natureQ6CorrectAnswer">6 Months</string>
+    <!-- End of nature activity -->
+
+    <!-- Start of space activity -->
     <string name="spaceIntro">
         After choosing the category the shadow split into pieces.
         \nIt changed in to all kinds of shapes and sizes.
@@ -105,8 +141,8 @@
         \nNow lets begin with the questions..
     </string>
     <!-- End of space activity -->
-    <!-- Start of sports activity -->
 
+    <!-- Start of sports activity -->
     <string name="sportsIntro">
         After choosing the category the shadow split into pieces.
         \nIt changed in to all kinds of shapes and sizes.
