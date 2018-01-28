@@ -191,43 +191,43 @@
         \nNow lets begin with the questions..
     </string>
 
-    <string name="sportsFirstQuestion">This is my first question. \nWhen did Christopher Columbus reach America for the first time?</string>
-    <string name="sportsFirstQuestionAnswerOne">In 1468</string>
-    <string name="sportsFirstQuestionAnswerTwo">In 1514</string>
-    <string name="sportsFirstQuestionAnswerThree">In 1492</string>
-    <string name="sportsFirstQuestionAnswerFour">In 1453</string>
-    <string name="sportsQ1CorrectAnswer">In 1492</string>
+    <string name="sportsFirstQuestion">This is my first question. \nIn which football club does Christiano Ronaldo play?</string>
+    <string name="sportsFirstQuestionAnswerOne">Barcelona</string>
+    <string name="sportsFirstQuestionAnswerTwo">Real Madrid</string>
+    <string name="sportsFirstQuestionAnswerThree">Milan</string>
+    <string name="sportsFirstQuestionAnswerFour">Chelcea</string>
+    <string name="sportsQ1CorrectAnswer">Real Madrid</string>
 
-    <string name="sportsSecondQuestion">Ok. Next... \nWho was the god of thunder in greek mythology?</string>
+    <string name="sportsSecondQuestion">Ok. Next... \nwhich country i the mother of the olympic games?</string>
     <string name="sportsSecondQuestionAnswer">Enter your Answer</string>
-    <string name="sportsQ2CorrectAnswer">zeus</string>
+    <string name="sportsQ2CorrectAnswer">greece</string>
 
-    <string name="sportsThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the names below belong to norse mythology gods?</string>
-    <string name="sportsThirdQuestionAnswerOne">Odin</string>
-    <string name="sportsThirdQuestionAnswerTwo">Fenrir</string>
-    <string name="sportsThirdQuestionAnswerThree">Sleipnir</string>
-    <string name="sportsThirdQuestionAnswerFour">Baldur</string>
-    <string name="sportsThirdQuestionAnswerFive">Freya</string>
-    <string name="sportsThirdQuestionAnswerSix">Kvasir</string>
+    <string name="sportsThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nwhich of the sports below are in the olympics?</string>
+    <string name="sportsThirdQuestionAnswerOne">Boxing</string>
+    <string name="sportsThirdQuestionAnswerTwo">Soccer</string>
+    <string name="sportsThirdQuestionAnswerThree">Tennis</string>
+    <string name="sportsThirdQuestionAnswerFour">Archery</string>
+    <string name="sportsThirdQuestionAnswerFive">taekwondo</string>
+    <string name="sportsThirdQuestionAnswerSix">Kendo</string>
 
-    <string name="sportsFourthQuestion">You think you are doing great but...  \nWhich year did the Berlin wall fall?</string>
+    <string name="sportsFourthQuestion">You think you are doing great but...  \nHow many rings in in the Olympic games flag?</string>
     <string name="sportsFourthQuestionAnswer">Enter your Answer</string>
-    <string name="sportsQ4CorrectAnswer">1989</string>
+    <string name="sportsQ4CorrectAnswer">5</string>
 
-    <string name="sportsFifthQuestion">You look tired and we still have two more questions... \nWhat was the purpose of the egyptian pyramids?</string>
-    <string name="sportsFifthQuestionAnswerOne">Temple</string>
-    <string name="sportsFifthQuestionAnswerTwo">Tomb</string>
-    <string name="sportsFifthQuestionAnswerThree">Palace</string>
-    <string name="sportsFifthQuestionAnswerFour">Prison</string>
-    <string name="sportsQ5CorrectAnswer">Tomb</string>
+    <string name="sportsFifthQuestion">You look tired and we still have two more questions... \nHow many Euroleague Trophies Has Panathinaikos B.C. won?</string>
+    <string name="sportsFifthQuestionAnswerOne">None</string>
+    <string name="sportsFifthQuestionAnswerTwo">1</string>
+    <string name="sportsFifthQuestionAnswerThree">4</string>
+    <string name="sportsFifthQuestionAnswerFour">6</string>
+    <string name="sportsQ5CorrectAnswer">6</string>
 
-    <string name="sportsSixthQuestion">Finally... \nWhich of the countries below are considered UK territories?</string>
-    <string name="sportsSixthQuestionAnswerOne">Gibraltar</string>
-    <string name="sportsSixthQuestionAnswerTwo">Bermuda</string>
-    <string name="sportsSixthQuestionAnswerThree">Antigua and Barbuda</string>
-    <string name="sportsSixthQuestionAnswerFour">British Honduras</string>
-    <string name="sportsSixthQuestionAnswerFive">British Virgin Islands</string>
-    <string name="sportsSixthQuestionAnswerSix">Cayman Islands</string>
+    <string name="sportsSixthQuestion">Finally... \nWhich of the nicknames below belong to Premier League teams?</string>
+    <string name="sportsSixthQuestionAnswerOne">The Gunners</string>
+    <string name="sportsSixthQuestionAnswerTwo">The red devils</string>
+    <string name="sportsSixthQuestionAnswerThree">Azulgrana</string>
+    <string name="sportsSixthQuestionAnswerFour">The Whites</string>
+    <string name="sportsSixthQuestionAnswerFive">The Spurs</string>
+    <string name="sportsSixthQuestionAnswerSix">The Reds</string>
     <!-- End of sports activity -->
 
     <string name="submitBtn">Submit your answers</string>

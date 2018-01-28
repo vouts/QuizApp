@@ -98,17 +98,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/god1"
+                            android:id="@+id/olympic1"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerOne" />
 
                         <CheckBox
-                            android:id="@+id/notGod2"
+                            android:id="@+id/notOlympic2"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerThree" />
 
                         <CheckBox
-                            android:id="@+id/god3"
+                            android:id="@+id/olympic3"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerFive" />
                     </LinearLayout>
@@ -116,17 +116,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/notGod1"
+                            android:id="@+id/notOlympic1"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerTwo" />
 
                         <CheckBox
-                            android:id="@+id/god2"
+                            android:id="@+id/olympic2"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerFour" />
 
                         <CheckBox
-                            android:id="@+id/notGod3"
+                            android:id="@+id/notOlympic3"
                             style="@style/checkBox"
                             android:text="@string/sportsThirdQuestionAnswerSix" />
                     </LinearLayout>
@@ -157,7 +157,7 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/sportsFirstQuestion" />
+                    android:text="@string/sportsFifthQuestion" />
 
                 <View style="@style/viewStyle" />
 
@@ -205,17 +205,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/eng1"
+                            android:id="@+id/name1"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerOne" />
 
                         <CheckBox
-                            android:id="@+id/notEng1"
+                            android:id="@+id/notName1"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerThree" />
 
                         <CheckBox
-                            android:id="@+id/eng2"
+                            android:id="@+id/name2"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerFive" />
                     </LinearLayout>
@@ -223,17 +223,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/eng3"
+                            android:id="@+id/name3"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerTwo" />
 
                         <CheckBox
-                            android:id="@+id/notEng2"
+                            android:id="@+id/notName2"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerFour" />
 
                         <CheckBox
-                            android:id="@+id/eng4"
+                            android:id="@+id/name4"
                             style="@style/checkBox"
                             android:text="@string/sportsSixthQuestionAnswerSix" />
                     </LinearLayout>

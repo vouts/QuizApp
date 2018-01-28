@@ -157,7 +157,7 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historyFirstQuestion" />
+                    android:text="@string/historyFifthQuestion" />
 
                 <View style="@style/viewStyle" />
 

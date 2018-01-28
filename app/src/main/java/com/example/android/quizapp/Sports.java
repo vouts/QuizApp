@@ -33,18 +33,18 @@ public class Sports extends AppCompatActivity {
         savedInstanceState.putString("Second_Question_Selection", secondQuestion.getText().toString());
 
         //Third question state
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3);
-        savedInstanceState.putBoolean("First_Q3_Checkbox", god1.isChecked());
-        savedInstanceState.putBoolean("Second_Q3_Checkbox", god2.isChecked());
-        savedInstanceState.putBoolean("Third_Q3_Checkbox", god3.isChecked());
-        savedInstanceState.putBoolean("Fourth_Q3_Checkbox", notGod1.isChecked());
-        savedInstanceState.putBoolean("Fifth_Q3_Checkbox", notGod2.isChecked());
-        savedInstanceState.putBoolean("Sixth_Q3_Checkbox", notGod3.isChecked());
+        CheckBox olympic1 = findViewById(R.id.olympic1),
+                olympic2 = findViewById(R.id.olympic2),
+                olympic3 = findViewById(R.id.olympic3),
+                notOlympic1 = findViewById(R.id.notOlympic1),
+                notOlympic2 = findViewById(R.id.notOlympic2),
+                notOlympic3 = findViewById(R.id.notOlympic3);
+        savedInstanceState.putBoolean("First_Q3_Checkbox", olympic1.isChecked());
+        savedInstanceState.putBoolean("Second_Q3_Checkbox", olympic2.isChecked());
+        savedInstanceState.putBoolean("Third_Q3_Checkbox", olympic3.isChecked());
+        savedInstanceState.putBoolean("Fourth_Q3_Checkbox", notOlympic1.isChecked());
+        savedInstanceState.putBoolean("Fifth_Q3_Checkbox", notOlympic2.isChecked());
+        savedInstanceState.putBoolean("Sixth_Q3_Checkbox", notOlympic3.isChecked());
 
         //Fourth question state
         EditText fourthQuestion = findViewById(R.id.sportsQ4);
@@ -55,18 +55,18 @@ public class Sports extends AppCompatActivity {
         savedInstanceState.putInt("Fifth_Question_Selection", fifthQuestion.getCheckedRadioButtonId());
 
         //Sixth question state
-        CheckBox eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
-        savedInstanceState.putBoolean("First_Q6_Checkbox", eng1.isChecked());
-        savedInstanceState.putBoolean("Second_Q6_Checkbox", eng2.isChecked());
-        savedInstanceState.putBoolean("Third_Q6_Checkbox", eng3.isChecked());
-        savedInstanceState.putBoolean("Fourth_Q6_Checkbox", eng4.isChecked());
-        savedInstanceState.putBoolean("Fifth_Q6_Checkbox", notEng1.isChecked());
-        savedInstanceState.putBoolean("Sixth_Q6_Checkbox", notEng2.isChecked());
+        CheckBox name1 = findViewById(R.id.name1),
+                name2 = findViewById(R.id.name2),
+                name3 = findViewById(R.id.name3),
+                name4 = findViewById(R.id.name4),
+                notName1 = findViewById(R.id.notName1),
+                notName2 = findViewById(R.id.notName2);
+        savedInstanceState.putBoolean("First_Q6_Checkbox", name1.isChecked());
+        savedInstanceState.putBoolean("Second_Q6_Checkbox", name2.isChecked());
+        savedInstanceState.putBoolean("Third_Q6_Checkbox", name3.isChecked());
+        savedInstanceState.putBoolean("Fourth_Q6_Checkbox",name4.isChecked());
+        savedInstanceState.putBoolean("Fifth_Q6_Checkbox", notName1.isChecked());
+        savedInstanceState.putBoolean("Sixth_Q6_Checkbox", notName2.isChecked());
 
         super.onSaveInstanceState(savedInstanceState);
 
@@ -93,18 +93,18 @@ public class Sports extends AppCompatActivity {
             secondQuestion.setText(saveInstanceState.getString("Second_Question_Selection"));
 
             //Third question state
-            CheckBox god1 = findViewById(R.id.god1),
-                    god2 = findViewById(R.id.god2),
-                    god3 = findViewById(R.id.god3),
-                    notGod1 = findViewById(R.id.notGod1),
-                    notGod2 = findViewById(R.id.notGod2),
-                    notGod3 = findViewById(R.id.notGod3);
-            god1.setChecked(saveInstanceState.getBoolean("First_Q3_Checkbox"));
-            god2.setChecked(saveInstanceState.getBoolean("Second_Q3_Checkbox"));
-            god3.setChecked(saveInstanceState.getBoolean("Third_Q3_Checkbox"));
-            notGod1.setChecked(saveInstanceState.getBoolean("Fourth_Q3_Checkbox"));
-            notGod2.setChecked(saveInstanceState.getBoolean("Fifth_Q3_Checkbox"));
-            notGod3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
+            CheckBox olympic1 = findViewById(R.id.olympic1),
+                    olympic2 = findViewById(R.id.olympic2),
+                    olympic3 = findViewById(R.id.olympic3),
+                    notOlympic1 = findViewById(R.id.notOlympic1),
+                    notOlympic2 = findViewById(R.id.notOlympic2),
+                    notOlympic3 = findViewById(R.id.notOlympic3);
+            olympic1.setChecked(saveInstanceState.getBoolean("First_Q3_Checkbox"));
+            olympic2.setChecked(saveInstanceState.getBoolean("Second_Q3_Checkbox"));
+            olympic3.setChecked(saveInstanceState.getBoolean("Third_Q3_Checkbox"));
+            notOlympic1.setChecked(saveInstanceState.getBoolean("Fourth_Q3_Checkbox"));
+            notOlympic2.setChecked(saveInstanceState.getBoolean("Fifth_Q3_Checkbox"));
+            notOlympic3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
 
             //Fourth question state
             EditText fourthQuestion = findViewById(R.id.sportsQ4);
@@ -115,18 +115,18 @@ public class Sports extends AppCompatActivity {
             fifthQuestion.check(saveInstanceState.getInt("Fifth_Question_Selection"));
 
             //Sixth question state
-            CheckBox eng1 = findViewById(R.id.eng1),
-                    eng2 = findViewById(R.id.eng2),
-                    eng3 = findViewById(R.id.eng3),
-                    eng4 = findViewById(R.id.eng4),
-                    notEng1 = findViewById(R.id.notEng1),
-                    notEng2 = findViewById(R.id.notEng2);
-            eng1.setChecked(saveInstanceState.getBoolean("First_Q6_Checkbox"));
-            eng2.setChecked(saveInstanceState.getBoolean("Second_Q6_Checkbox"));
-            eng3.setChecked(saveInstanceState.getBoolean("Third_Q6_Checkbox"));
-            eng4.setChecked(saveInstanceState.getBoolean("Fourth_Q6_Checkbox"));
-            notEng1.setChecked(saveInstanceState.getBoolean("Fifth_Q6_Checkbox"));
-            notEng2.setChecked(saveInstanceState.getBoolean("Sixth_Q6_Checkbox"));
+            CheckBox name1 = findViewById(R.id.name1),
+                    name2 = findViewById(R.id.name2),
+                    name3 = findViewById(R.id.name3),
+                    name4 = findViewById(R.id.name4),
+                    notName1 = findViewById(R.id.notName1),
+                    notName2 = findViewById(R.id.notName2);
+            name1.setChecked(saveInstanceState.getBoolean("First_Q6_Checkbox"));
+            name2.setChecked(saveInstanceState.getBoolean("Second_Q6_Checkbox"));
+            name3.setChecked(saveInstanceState.getBoolean("Third_Q6_Checkbox"));
+            name4.setChecked(saveInstanceState.getBoolean("Fourth_Q6_Checkbox"));
+            notName1.setChecked(saveInstanceState.getBoolean("Fifth_Q6_Checkbox"));
+            notName2.setChecked(saveInstanceState.getBoolean("Sixth_Q6_Checkbox"));
         }
 
     }
@@ -142,18 +142,18 @@ public class Sports extends AppCompatActivity {
         EditText secondQuestion = findViewById(R.id.sportsQ2),
                 fourthQuestion = findViewById(R.id.sportsQ4);
 
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3),
-                eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
+        CheckBox olympic1 = findViewById(R.id.olympic1),
+                olympic2 = findViewById(R.id.olympic2),
+                olympic3 = findViewById(R.id.olympic3),
+                notOlympic1 = findViewById(R.id.notOlympic1),
+                notOlympic2 = findViewById(R.id.notOlympic2),
+                notOlympic3 = findViewById(R.id.notOlympic3),
+                name1 = findViewById(R.id.name1),
+                name2 = findViewById(R.id.name2),
+                name3 = findViewById(R.id.name3),
+                name4 = findViewById(R.id.name4),
+                notName1 = findViewById(R.id.notName1),
+                notName2 = findViewById(R.id.notName2);
         RadioButton firstQuestionSelected = findViewById(firstQuestion.getCheckedRadioButtonId()),
                 fifthQuestionSelected = findViewById(fifthQuestion.getCheckedRadioButtonId());
         ;
@@ -176,11 +176,11 @@ public class Sports extends AppCompatActivity {
 
         }
 
-        if (god1.isChecked() && god2.isChecked() && god3.isChecked() && !notGod1.isChecked() && !notGod2.isChecked() && !notGod3.isChecked()) {
+        if (olympic1.isChecked() && olympic2.isChecked() && olympic3.isChecked() && !notOlympic1.isChecked() && !notOlympic2.isChecked() && !notOlympic3.isChecked()) {
             result++;
         }
 
-        if (eng1.isChecked() && eng2.isChecked() && eng3.isChecked() && eng4.isChecked() && !notEng1.isChecked() && !notEng2.isChecked()) {
+        if (name1.isChecked() && name2.isChecked() && name3.isChecked() && name4.isChecked() && !notName1.isChecked() && !notName2.isChecked()) {
             result++;
         }
         return result;
@@ -200,18 +200,18 @@ public class Sports extends AppCompatActivity {
         EditText secondQuestion = findViewById(R.id.sportsQ2),
                 fourthQuestion = findViewById(R.id.sportsQ4);
 
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3),
-                eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
+        CheckBox olympic1 = findViewById(R.id.olympic1),
+                olympic2 = findViewById(R.id.olympic2),
+                olympic3 = findViewById(R.id.olympic3),
+                notOlympic1 = findViewById(R.id.notOlympic1),
+                notOlympic2 = findViewById(R.id.notOlympic2),
+                notOlympic3 = findViewById(R.id.notOlympic3),
+                name1 = findViewById(R.id.name1),
+                name2 = findViewById(R.id.name2),
+                name3 = findViewById(R.id.name3),
+                name4 = findViewById(R.id.name4),
+                notName1 = findViewById(R.id.notName1),
+                notName2 = findViewById(R.id.notName2);
 
 
         //Check if RadioGroup views are answered
@@ -225,8 +225,8 @@ public class Sports extends AppCompatActivity {
 
         //Check if CheckBox views are answered
         if (
-                (!god1.isChecked() && !god2.isChecked() && !god3.isChecked() && !notGod1.isChecked() && !notGod2.isChecked() && !notGod3.isChecked()) ||
-                        (!eng1.isChecked() && !eng2.isChecked() && !eng3.isChecked() && !eng4.isChecked() && !notEng1.isChecked() && !notEng2.isChecked())
+                (!olympic1.isChecked() && !olympic2.isChecked() && !olympic3.isChecked() && !notOlympic1.isChecked() && !notOlympic2.isChecked() && !notOlympic3.isChecked()) ||
+                        (!name1.isChecked() && !name2.isChecked() && !name3.isChecked() && !name4.isChecked() && !notName1.isChecked() && !notName2.isChecked())
                 ) {
             allQuestionsAnswered = false;
         }
@@ -236,12 +236,13 @@ public class Sports extends AppCompatActivity {
 
     public void submitSports(View view) {
         if (AllQuestionsAnsweredCheck()) {
-
-            Intent result = new Intent(this, Result.class);
-            result.putExtra("EXTRA_SELECTED_CATEGORY", category);
-            result.putExtra("EXTRA_TYPED_NAME", username);
-            result.putExtra("EXTRA_RESULT", calculateResult());
-            startActivity(result);
+            Toast toast = Toast.makeText(this, Integer.toString(calculateResult()),Toast.LENGTH_SHORT);
+            toast.show();
+//            Intent result = new Intent(this, Result.class);
+//            result.putExtra("EXTRA_SELECTED_CATEGORY", category);
+//            result.putExtra("EXTRA_TYPED_NAME", username);
+//            result.putExtra("EXTRA_RESULT", calculateResult());
+//            startActivity(result);
         } else {
             Toast toast = Toast.makeText(this, R.string.answerAllQuestions, Toast.LENGTH_SHORT);
             toast.show();
