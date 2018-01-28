@@ -33,37 +33,105 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historyFirstQuestion" />
+                    android:text="@string/spaceFirstQuestion" />
+
+                <View style="@style/viewStyle" />
+
+                <EditText
+                    android:id="@+id/spaceQ1"
+                    style="@style/editTextAnswerStyle"
+                    android:hint="@string/spaceFirstQuestionAnswer"
+                    android:inputType="textCapWords" />
+
+
+            </LinearLayout>
+            <LinearLayout style="@style/questionBox">
+
+                <TextView
+                    style="@style/questionStyle"
+                    android:text="@string/spaceSecondQuestion" />
 
                 <View style="@style/viewStyle" />
 
                 <RadioGroup
-                    android:id="@+id/historyQ1"
+                    android:id="@+id/spaceQ2"
                     style="@style/radioGroup">
 
 
                     <RadioButton
-                        android:id="@+id/answerOne"
+                        android:id="@+id/SecondAnswerOne"
                         style="@style/radioButton"
-                        android:text="@string/historyFirstQuestionAnswerOne" />
+                        android:text="@string/spaceSecondQuestionAnswerOne" />
 
                     <RadioButton
-                        android:id="@+id/answerTwo"
+                        android:id="@+id/SecondAnswerTwo"
                         style="@style/radioButton"
-                        android:text="@string/historyFirstQuestionAnswerTwo" />
+                        android:text="@string/spaceSecondQuestionAnswerTwo" />
 
 
                     <RadioButton
-                        android:id="@+id/answerThree"
+                        android:id="@+id/SecondAnswerThree"
                         style="@style/radioButton"
-                        android:text="@string/historyFirstQuestionAnswerThree" />
+                        android:text="@string/spaceSecondQuestionAnswerThree" />
 
                     <RadioButton
-                        android:id="@+id/answerFour"
+                        android:id="@+id/SecondAnswerFour"
                         style="@style/radioButton"
-                        android:text="@string/historyFirstQuestionAnswerFour" />
+                        android:text="@string/spaceSecondQuestionAnswerFour" />
 
                 </RadioGroup>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/questionBox">
+
+                <TextView
+                    style="@style/questionStyle"
+                    android:text="@string/spaceThirdQuestion" />
+
+                <View style="@style/viewStyle" />
+
+                <LinearLayout style="@style/checkBoxContainer">
+
+                    <LinearLayout style="@style/CheckboxColumn">
+
+                        <CheckBox
+                            android:id="@+id/notMammal1"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerOne" />
+
+                        <CheckBox
+                            android:id="@+id/notMammal2"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerThree" />
+
+                        <CheckBox
+                            android:id="@+id/notMammal3"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerFive" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/CheckboxColumn">
+
+                        <CheckBox
+                            android:id="@+id/mammal1"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerTwo" />
+
+                        <CheckBox
+                            android:id="@+id/mammal2"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerFour" />
+
+                        <CheckBox
+                            android:id="@+id/mammal3"
+                            style="@style/checkBox"
+                            android:text="@string/spaceThirdQuestionAnswerSix" />
+                    </LinearLayout>
+
+                </LinearLayout>
 
 
             </LinearLayout>
@@ -72,14 +140,14 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historySecondQuestion" />
+                    android:text="@string/spaceFourthQuestion" />
 
                 <View style="@style/viewStyle" />
 
                 <EditText
-                    android:id="@+id/historyQ2"
+                    android:id="@+id/spaceQ4"
                     style="@style/editTextAnswerStyle"
-                    android:hint="@string/historySecondQuestionAnswer"
+                    android:hint="@string/spaceFourthQuestionAnswer"
                     android:inputType="textCapWords" />
 
 
@@ -89,7 +157,7 @@
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historyThirdQuestion" />
+                    android:text="@string/spaceFifthQuestion" />
 
                 <View style="@style/viewStyle" />
 
@@ -98,149 +166,83 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/god1"
+                            android:id="@+id/fruit1"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerOne" />
+                            android:text="@string/spaceFifthQuestionAnswerOne" />
 
                         <CheckBox
-                            android:id="@+id/notGod2"
+                            android:id="@+id/notFruit1"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerThree" />
+                            android:text="@string/spaceFifthQuestionAnswerThree" />
 
                         <CheckBox
-                            android:id="@+id/god3"
+                            android:id="@+id/notFruit2"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerFive" />
+                            android:text="@string/spaceFifthQuestionAnswerFive" />
                     </LinearLayout>
 
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/notGod1"
+                            android:id="@+id/fruit2"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerTwo" />
+                            android:text="@string/spaceFifthQuestionAnswerTwo" />
 
                         <CheckBox
-                            android:id="@+id/god2"
+                            android:id="@+id/fruit3"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerFour" />
+                            android:text="@string/spaceFifthQuestionAnswerFour" />
 
                         <CheckBox
-                            android:id="@+id/notGod3"
+                            android:id="@+id/notFruit3"
                             style="@style/checkBox"
-                            android:text="@string/historyThirdQuestionAnswerSix" />
+                            android:text="@string/spaceFifthQuestionAnswerSix" />
                     </LinearLayout>
 
                 </LinearLayout>
 
-
             </LinearLayout>
 
             <LinearLayout style="@style/questionBox">
 
                 <TextView
                     style="@style/questionStyle"
-                    android:text="@string/historyFourthQuestion" />
-
-                <View style="@style/viewStyle" />
-
-                <EditText
-                    android:id="@+id/historyQ4"
-                    style="@style/editTextAnswerStyle"
-                    android:hint="@string/historyFourthQuestionAnswer"
-                    android:inputType="number" />
-
-
-            </LinearLayout>
-
-            <LinearLayout style="@style/questionBox">
-
-                <TextView
-                    style="@style/questionStyle"
-                    android:text="@string/historyFirstQuestion" />
+                    android:text="@string/spaceSixthQuestion" />
 
                 <View style="@style/viewStyle" />
 
                 <RadioGroup
-                    android:id="@+id/historyQ5"
+                    android:id="@+id/spaceQ6"
                     style="@style/radioGroup">
 
 
                     <RadioButton
-                        android:id="@+id/FifthAnswerOne"
+                        android:id="@+id/SixthAnswerOne"
                         style="@style/radioButton"
-                        android:text="@string/historyFifthQuestionAnswerOne" />
+                        android:text="@string/spaceSixthQuestionAnswerOne" />
 
                     <RadioButton
-                        android:id="@+id/FifthAnswerTwo"
+                        android:id="@+id/SixthAnswerTwo"
                         style="@style/radioButton"
-                        android:text="@string/historyFifthQuestionAnswerTwo" />
+                        android:text="@string/spaceSixthQuestionAnswerTwo" />
 
 
                     <RadioButton
-                        android:id="@+id/FifthAnswerThree"
+                        android:id="@+id/SixthAnswerThree"
                         style="@style/radioButton"
-                        android:text="@string/historyFifthQuestionAnswerThree" />
+                        android:text="@string/spaceSixthQuestionAnswerThree" />
 
                     <RadioButton
-                        android:id="@+id/FifthAnswerFour"
+                        android:id="@+id/SixthAnswerFour"
                         style="@style/radioButton"
-                        android:text="@string/historyFifthQuestionAnswerFour" />
+                        android:text="@string/spaceSixthQuestionAnswerFour" />
 
                 </RadioGroup>
 
 
             </LinearLayout>
 
-            <LinearLayout style="@style/questionBox">
 
-                <TextView
-                    style="@style/questionStyle"
-                    android:text="@string/historySixthQuestion" />
-
-                <View style="@style/viewStyle" />
-
-                <LinearLayout style="@style/checkBoxContainer">
-
-                    <LinearLayout style="@style/CheckboxColumn">
-
-                        <CheckBox
-                            android:id="@+id/eng1"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerOne" />
-
-                        <CheckBox
-                            android:id="@+id/notEng1"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerThree" />
-
-                        <CheckBox
-                            android:id="@+id/eng2"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerFive" />
-                    </LinearLayout>
-
-                    <LinearLayout style="@style/CheckboxColumn">
-
-                        <CheckBox
-                            android:id="@+id/eng3"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerTwo" />
-
-                        <CheckBox
-                            android:id="@+id/notEng2"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerFour" />
-
-                        <CheckBox
-                            android:id="@+id/eng4"
-                            style="@style/checkBox"
-                            android:text="@string/historySixthQuestionAnswerSix" />
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </LinearLayout>
 
 
         </LinearLayout>

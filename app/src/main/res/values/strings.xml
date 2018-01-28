@@ -140,6 +140,44 @@
         \nFor your sake I hope you chose correctly...
         \nNow lets begin with the questions..
     </string>
+
+    <string name="spaceFirstQuestion">This is my first question. \nLemurs are native to only one country on earth. Name it.</string>
+    <string name="spaceFirstQuestionAnswer">Enter your Answer</string>
+    <string name="spaceQ1CorrectAnswer">madagascar</string>
+
+    <string name="spaceSecondQuestion">Ok. Next... \nWhich two elements make up water</string>
+    <string name="spaceSecondQuestionAnswerOne">Hydrogen and oxygen</string>
+    <string name="spaceSecondQuestionAnswerTwo">Sodium and calcium</string>
+    <string name="spaceSecondQuestionAnswerThree">Calcium and oxygen</string>
+    <string name="spaceSecondQuestionAnswerFour">Hydrogen and sodium</string>
+    <string name="spaceQ2CorrectAnswer">Hydrogen and oxygen</string>
+
+    <string name="spaceThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the animals below belong to mammals?</string>
+    <string name="spaceThirdQuestionAnswerOne">Penguin</string>
+    <string name="spaceThirdQuestionAnswerTwo">Pangolin</string>
+    <string name="spaceThirdQuestionAnswerThree">White Shark</string>
+    <string name="spaceThirdQuestionAnswerFour">cheetah</string>
+    <string name="spaceThirdQuestionAnswerFive">Eagle</string>
+    <string name="spaceThirdQuestionAnswerSix">Panda</string>
+
+    <string name="spaceFourthQuestion">You think you are doing great but...  \nWhich is the fastest animal on earth?</string>
+    <string name="spaceFourthQuestionAnswer">Enter your Answer</string>
+    <string name="spaceQ4CorrectAnswer">cheetah</string>
+
+    <string name="spaceFifthQuestion">You look tired and we still have two more questions... \nWhich of the plants below are fruits?</string>
+    <string name="spaceFifthQuestionAnswerOne">Watermelon</string>
+    <string name="spaceFifthQuestionAnswerTwo">Banana</string>
+    <string name="spaceFifthQuestionAnswerThree">Spinach</string>
+    <string name="spaceFifthQuestionAnswerFour">Tomato</string>
+    <string name="spaceFifthQuestionAnswerFive">Cabbage</string>
+    <string name="spaceFifthQuestionAnswerSix">Potato</string>
+
+    <string name="spaceSixthQuestion">Finally... \nHow long does a day last in the north pole</string>
+    <string name="spaceSixthQuestionAnswerOne">24 Hours</string>
+    <string name="spaceSixthQuestionAnswerTwo">1 Week</string>
+    <string name="spaceSixthQuestionAnswerThree">1 Month</string>
+    <string name="spaceSixthQuestionAnswerFour">6 Months</string>
+    <string name="spaceQ6CorrectAnswer">6 Months</string>
     <!-- End of space activity -->
 
     <!-- Start of sports activity -->

@@ -25,48 +25,49 @@ public class Space extends AppCompatActivity {
         savedInstanceState.putString("selected_category", category);
 
         //First question state
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1);
-        savedInstanceState.putInt("First_Question_Selection", firstQuestion.getCheckedRadioButtonId());
+        EditText firstQuestion = findViewById(R.id.natureQ1);
+        savedInstanceState.putString("First_Question_Selection", firstQuestion.getText().toString());
 
         //Second question state
-        EditText secondQuestion = findViewById(R.id.historyQ2);
-        savedInstanceState.putString("Second_Question_Selection", secondQuestion.getText().toString());
+        RadioGroup secondQuestion = findViewById(R.id.natureQ2);
+        savedInstanceState.putInt("Second_Question_Selection", secondQuestion.getCheckedRadioButtonId());
 
         //Third question state
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3);
-        savedInstanceState.putBoolean("First_Q3_Checkbox", god1.isChecked());
-        savedInstanceState.putBoolean("Second_Q3_Checkbox", god2.isChecked());
-        savedInstanceState.putBoolean("Third_Q3_Checkbox", god3.isChecked());
-        savedInstanceState.putBoolean("Fourth_Q3_Checkbox", notGod1.isChecked());
-        savedInstanceState.putBoolean("Fifth_Q3_Checkbox", notGod2.isChecked());
-        savedInstanceState.putBoolean("Sixth_Q3_Checkbox", notGod3.isChecked());
+        CheckBox mammal1 = findViewById(R.id.mammal1),
+                mammal2 = findViewById(R.id.mammal2),
+                mammal3 = findViewById(R.id.mammal3),
+                notMammal1 = findViewById(R.id.notMammal1),
+                notMammal2 = findViewById(R.id.notMammal2),
+                notMammal3 = findViewById(R.id.notMammal3);
+        savedInstanceState.putBoolean("First_Q3_Checkbox", mammal1.isChecked());
+        savedInstanceState.putBoolean("Second_Q3_Checkbox", mammal2.isChecked());
+        savedInstanceState.putBoolean("Third_Q3_Checkbox", mammal3.isChecked());
+        savedInstanceState.putBoolean("Fourth_Q3_Checkbox", notMammal1.isChecked());
+        savedInstanceState.putBoolean("Fifth_Q3_Checkbox", notMammal2.isChecked());
+        savedInstanceState.putBoolean("Sixth_Q3_Checkbox", notMammal3.isChecked());
 
         //Fourth question state
-        EditText fourthQuestion = findViewById(R.id.historyQ4);
+        EditText fourthQuestion = findViewById(R.id.natureQ4);
         savedInstanceState.putString("Fourth_Question_Selection", fourthQuestion.getText().toString());
 
         //Fifth question state
-        RadioGroup fifthQuestion = findViewById(R.id.historyQ5);
-        savedInstanceState.putInt("Fifth_Question_Selection", fifthQuestion.getCheckedRadioButtonId());
+        CheckBox fruit1 = findViewById(R.id.fruit1),
+                fruit2 = findViewById(R.id.fruit2),
+                fruit3 = findViewById(R.id.fruit3),
+                notFruit1 = findViewById(R.id.notFruit1),
+                notFruit2 = findViewById(R.id.notFruit2),
+                notFruit3 = findViewById(R.id.notFruit3);
+        savedInstanceState.putBoolean("First_Q5_Checkbox", fruit1.isChecked());
+        savedInstanceState.putBoolean("Second_Q5_Checkbox", fruit2.isChecked());
+        savedInstanceState.putBoolean("Third_Q5_Checkbox", fruit3.isChecked());
+        savedInstanceState.putBoolean("Fourth_Q5_Checkbox", notFruit1.isChecked());
+        savedInstanceState.putBoolean("Fifth_Q5_Checkbox", notFruit2.isChecked());
+        savedInstanceState.putBoolean("Sixth_Q5_Checkbox", notFruit3.isChecked());
 
         //Sixth question state
-        CheckBox eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
-        savedInstanceState.putBoolean("First_Q6_Checkbox", eng1.isChecked());
-        savedInstanceState.putBoolean("Second_Q6_Checkbox", eng2.isChecked());
-        savedInstanceState.putBoolean("Third_Q6_Checkbox", eng3.isChecked());
-        savedInstanceState.putBoolean("Fourth_Q6_Checkbox", eng4.isChecked());
-        savedInstanceState.putBoolean("Fifth_Q6_Checkbox", notEng1.isChecked());
-        savedInstanceState.putBoolean("Sixth_Q6_Checkbox", notEng2.isChecked());
+        RadioGroup sixthQuestion = findViewById(R.id.natureQ6);
+        savedInstanceState.putInt("Sixth_Question_Selection", sixthQuestion.getCheckedRadioButtonId());
+
 
         super.onSaveInstanceState(savedInstanceState);
 
@@ -85,48 +86,51 @@ public class Space extends AppCompatActivity {
             username = saveInstanceState.getString("typed_name");
 
             //First question state
-            RadioGroup firstQuestion = findViewById(R.id.historyQ1);
-            firstQuestion.check(saveInstanceState.getInt("First_Question_Selection"));
+            EditText firstQuestion = findViewById(R.id.natureQ1);
+            firstQuestion.setText(saveInstanceState.getString("First_Question_Selection"));
 
             //Second question state
-            EditText secondQuestion = findViewById(R.id.historyQ2);
-            secondQuestion.setText(saveInstanceState.getString("Second_Question_Selection"));
+            RadioGroup secondQuestion = findViewById(R.id.natureQ2);
+            secondQuestion.check(saveInstanceState.getInt("Second_Question_Selection"));
+
 
             //Third question state
-            CheckBox god1 = findViewById(R.id.god1),
-                    god2 = findViewById(R.id.god2),
-                    god3 = findViewById(R.id.god3),
-                    notGod1 = findViewById(R.id.notGod1),
-                    notGod2 = findViewById(R.id.notGod2),
-                    notGod3 = findViewById(R.id.notGod3);
-            god1.setChecked(saveInstanceState.getBoolean("First_Q3_Checkbox"));
-            god2.setChecked(saveInstanceState.getBoolean("Second_Q3_Checkbox"));
-            god3.setChecked(saveInstanceState.getBoolean("Third_Q3_Checkbox"));
-            notGod1.setChecked(saveInstanceState.getBoolean("Fourth_Q3_Checkbox"));
-            notGod2.setChecked(saveInstanceState.getBoolean("Fifth_Q3_Checkbox"));
-            notGod3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
+            CheckBox mammal1 = findViewById(R.id.mammal1),
+                    mammal2 = findViewById(R.id.mammal2),
+                    mammal3 = findViewById(R.id.mammal3),
+                    notMammal1 = findViewById(R.id.notMammal1),
+                    notMammal2 = findViewById(R.id.notMammal2),
+                    notMammal3 = findViewById(R.id.notMammal3);
+            mammal1.setChecked(saveInstanceState.getBoolean("First_Q3_Checkbox"));
+            mammal2.setChecked(saveInstanceState.getBoolean("Second_Q3_Checkbox"));
+            mammal3.setChecked(saveInstanceState.getBoolean("Third_Q3_Checkbox"));
+            notMammal1.setChecked(saveInstanceState.getBoolean("Fourth_Q3_Checkbox"));
+            notMammal2.setChecked(saveInstanceState.getBoolean("Fifth_Q3_Checkbox"));
+            notMammal3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
 
             //Fourth question state
-            EditText fourthQuestion = findViewById(R.id.historyQ4);
+            EditText fourthQuestion = findViewById(R.id.natureQ4);
             fourthQuestion.setText(saveInstanceState.getString("Fourth_Question_Selection"));
 
             //Fifth question state
-            RadioGroup fifthQuestion = findViewById(R.id.historyQ5);
-            fifthQuestion.check(saveInstanceState.getInt("Fifth_Question_Selection"));
+            CheckBox fruit1 = findViewById(R.id.fruit1),
+                    fruit2 = findViewById(R.id.fruit2),
+                    fruit3 = findViewById(R.id.fruit3),
+                    notFruit1 = findViewById(R.id.notFruit1),
+                    notFruit2 = findViewById(R.id.notFruit2),
+                    notFruit3 = findViewById(R.id.notFruit3);
+            fruit1.setChecked(saveInstanceState.getBoolean("First_Q5_Checkbox"));
+            fruit2.setChecked(saveInstanceState.getBoolean("Second_Q5_Checkbox"));
+            fruit3.setChecked(saveInstanceState.getBoolean("Third_Q5_Checkbox"));
+            notFruit1.setChecked(saveInstanceState.getBoolean("Fourth_Q5_Checkbox"));
+            notFruit2.setChecked(saveInstanceState.getBoolean("Fifth_Q5_Checkbox"));
+            notFruit3.setChecked(saveInstanceState.getBoolean("Sixth_Q5_Checkbox"));
 
             //Sixth question state
-            CheckBox eng1 = findViewById(R.id.eng1),
-                    eng2 = findViewById(R.id.eng2),
-                    eng3 = findViewById(R.id.eng3),
-                    eng4 = findViewById(R.id.eng4),
-                    notEng1 = findViewById(R.id.notEng1),
-                    notEng2 = findViewById(R.id.notEng2);
-            eng1.setChecked(saveInstanceState.getBoolean("First_Q6_Checkbox"));
-            eng2.setChecked(saveInstanceState.getBoolean("Second_Q6_Checkbox"));
-            eng3.setChecked(saveInstanceState.getBoolean("Third_Q6_Checkbox"));
-            eng4.setChecked(saveInstanceState.getBoolean("Fourth_Q6_Checkbox"));
-            notEng1.setChecked(saveInstanceState.getBoolean("Fifth_Q6_Checkbox"));
-            notEng2.setChecked(saveInstanceState.getBoolean("Sixth_Q6_Checkbox"));
+            RadioGroup sixthQuestion = findViewById(R.id.natureQ6);
+            sixthQuestion.check(saveInstanceState.getInt("Sixth_Question_Selection"));
+
+
         }
 
     }
@@ -136,51 +140,51 @@ public class Space extends AppCompatActivity {
      */
     private int calculateResult() {
         int result = 0;
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1),
-                fifthQuestion = findViewById(R.id.historyQ5);
+        RadioGroup secondQuestion = findViewById(R.id.natureQ2),
+                sixthQuestion = findViewById(R.id.natureQ6);
 
-        EditText secondQuestion = findViewById(R.id.historyQ2),
-                fourthQuestion = findViewById(R.id.historyQ4);
+        EditText firstQuestion = findViewById(R.id.natureQ1),
+                fourthQuestion = findViewById(R.id.natureQ4);
 
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3),
-                eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
-        RadioButton firstQuestionSelected = findViewById(firstQuestion.getCheckedRadioButtonId()),
-                fifthQuestionSelected = findViewById(fifthQuestion.getCheckedRadioButtonId());
+        CheckBox fruit1 = findViewById(R.id.fruit1),
+                fruit2 = findViewById(R.id.fruit2),
+                fruit3 = findViewById(R.id.fruit3),
+                notFruit1 = findViewById(R.id.notFruit1),
+                notFruit2 = findViewById(R.id.notFruit2),
+                notFruit3 = findViewById(R.id.notFruit3),
+                mammal1 = findViewById(R.id.mammal1),
+                mammal2 = findViewById(R.id.mammal2),
+                mammal3 = findViewById(R.id.mammal3),
+                notMammal1 = findViewById(R.id.notMammal1),
+                notMammal2 = findViewById(R.id.notMammal2),
+                notMammal3 = findViewById(R.id.notMammal3);
+        RadioButton secondQuestionSelected = findViewById(secondQuestion.getCheckedRadioButtonId()),
+                sixthQuestionSelected = findViewById(sixthQuestion.getCheckedRadioButtonId());
         ;
 
-        if (firstQuestionSelected.getText().toString() == getString(R.string.historyQ1CorrectAnswer)) {
+        if (secondQuestionSelected.getText().toString() == getString(R.string.natureQ2CorrectAnswer)) {
             result++;
         }
 
-        if (fifthQuestionSelected.getText().toString() == getString(R.string.historyQ5CorrectAnswer)) {
+        if (sixthQuestionSelected.getText().toString() == getString(R.string.natureQ6CorrectAnswer)) {
             result++;
         }
 
-        if (secondQuestion.getText().toString().toLowerCase().equals(getString(R.string.historyQ2CorrectAnswer))) {
-            result++;
-
-        }
-
-        if (  Integer.parseInt(fourthQuestion.getText().toString()) == Integer.parseInt(getString(R.string.historyQ4CorrectAnswer))){
+        if (firstQuestion.getText().toString().toLowerCase().equals(getString(R.string.natureQ1CorrectAnswer))) {
             result++;
 
         }
 
-        if (god1.isChecked() && god2.isChecked() && god3.isChecked() && !notGod1.isChecked() && !notGod2.isChecked() && !notGod3.isChecked()) {
+        if (fourthQuestion.getText().toString().toLowerCase().equals(getString(R.string.natureQ4CorrectAnswer))) {
+            result++;
+
+        }
+
+        if (fruit1.isChecked() && fruit2.isChecked() && fruit3.isChecked() && !notFruit1.isChecked() && !notFruit2.isChecked() && !notFruit3.isChecked()) {
             result++;
         }
 
-        if (eng1.isChecked() && eng2.isChecked() && eng3.isChecked() && eng4.isChecked() && !notEng1.isChecked() && !notEng2.isChecked()) {
+        if (mammal1.isChecked() && mammal2.isChecked() && mammal3.isChecked() && !notMammal1.isChecked() && !notMammal2.isChecked() && !notMammal3.isChecked()) {
             result++;
         }
         return result;
@@ -194,39 +198,39 @@ public class Space extends AppCompatActivity {
     private Boolean AllQuestionsAnsweredCheck() {
         Boolean allQuestionsAnswered = true;
 
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1),
-                fifthQuestion = findViewById(R.id.historyQ5);
+        RadioGroup secondQuestion = findViewById(R.id.natureQ2),
+                sixthQuestion = findViewById(R.id.natureQ6);
 
-        EditText secondQuestion = findViewById(R.id.historyQ2),
-                fourthQuestion = findViewById(R.id.historyQ4);
+        EditText firstQuestion = findViewById(R.id.natureQ1),
+                fourthQuestion = findViewById(R.id.natureQ4);
 
-        CheckBox god1 = findViewById(R.id.god1),
-                god2 = findViewById(R.id.god2),
-                god3 = findViewById(R.id.god3),
-                notGod1 = findViewById(R.id.notGod1),
-                notGod2 = findViewById(R.id.notGod2),
-                notGod3 = findViewById(R.id.notGod3),
-                eng1 = findViewById(R.id.eng1),
-                eng2 = findViewById(R.id.eng2),
-                eng3 = findViewById(R.id.eng3),
-                eng4 = findViewById(R.id.eng4),
-                notEng1 = findViewById(R.id.notEng1),
-                notEng2 = findViewById(R.id.notEng2);
+        CheckBox fruit1 = findViewById(R.id.fruit1),
+                fruit2 = findViewById(R.id.fruit2),
+                fruit3 = findViewById(R.id.fruit3),
+                notFruit1 = findViewById(R.id.notFruit1),
+                notFruit2 = findViewById(R.id.notFruit2),
+                notFruit3 = findViewById(R.id.notFruit3),
+                mammal1 = findViewById(R.id.mammal1),
+                mammal2 = findViewById(R.id.mammal2),
+                mammal3 = findViewById(R.id.mammal3),
+                notMammal1 = findViewById(R.id.notMammal1),
+                notMammal2 = findViewById(R.id.notMammal2),
+                notMammal3 = findViewById(R.id.notMammal3);
 
 
         //Check if RadioGroup views are answered
-        if (firstQuestion.getCheckedRadioButtonId() == -1 || fifthQuestion.getCheckedRadioButtonId() == -1) {
+        if (secondQuestion.getCheckedRadioButtonId() == -1 || sixthQuestion.getCheckedRadioButtonId() == -1) {
             allQuestionsAnswered = false;
         }
         //Check if EditText views are answered
-        if (secondQuestion.getText().toString().length() == 0 || fourthQuestion.getText().toString().length() == 0) {
+        if (firstQuestion.getText().toString().length() == 0 || fourthQuestion.getText().toString().length() == 0) {
             allQuestionsAnswered = false;
         }
 
         //Check if CheckBox views are answered
         if (
-                (!god1.isChecked() && !god2.isChecked() && !god3.isChecked() && !notGod1.isChecked() && !notGod2.isChecked() && !notGod3.isChecked()) ||
-                        (!eng1.isChecked() && !eng2.isChecked() && !eng3.isChecked() && !eng4.isChecked() && !notEng1.isChecked() && !notEng2.isChecked())
+                (!fruit1.isChecked() && !fruit2.isChecked() && !fruit3.isChecked() && !notFruit1.isChecked() && !notFruit2.isChecked() && !notFruit3.isChecked()) ||
+                        (!mammal1.isChecked() && !mammal2.isChecked() && !mammal3.isChecked() && !notMammal1.isChecked() && !notMammal2.isChecked() && !notMammal3.isChecked())
                 ) {
             allQuestionsAnswered = false;
         }
@@ -236,7 +240,6 @@ public class Space extends AppCompatActivity {
 
     public void submitSpace(View view) {
         if (AllQuestionsAnsweredCheck()) {
-
             Intent result = new Intent(this, Result.class);
             result.putExtra("EXTRA_SELECTED_CATEGORY", category);
             result.putExtra("EXTRA_TYPED_NAME", username);
@@ -251,7 +254,7 @@ public class Space extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_space);
+        setContentView(R.layout.activity_nature);
         category = getIntent().getStringExtra("EXTRA_SELECTED_CATEGORY");
         username = getIntent().getStringExtra("EXTRA_TYPED_NAME");
     }
