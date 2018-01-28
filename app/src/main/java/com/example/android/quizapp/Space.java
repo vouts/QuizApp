@@ -234,7 +234,7 @@ public class Space extends MainActivity {
         return allQuestionsAnswered;
     }
 
-    public void submit(View view) {
+    public void submitSpace(View view) {
         if (AllQuestionsAnsweredCheck()) {
 
             Intent result = new Intent(this, Result.class);

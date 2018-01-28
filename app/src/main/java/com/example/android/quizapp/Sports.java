@@ -234,7 +234,7 @@ public class Sports extends MainActivity {
         return allQuestionsAnswered;
     }
 
-    public void submit(View view) {
+    public void submitSports (View view) {
         if (AllQuestionsAnsweredCheck()) {
 
             Intent result = new Intent(this, Result.class);

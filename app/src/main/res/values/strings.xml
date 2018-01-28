@@ -90,6 +90,8 @@
         \nFor your sake I hope you chose correctly...
         \nNow lets begin with the questions..
     </string>
+    <string name="natureFirstQuestion">This is my first question. \nLemurs are native to only one country on earth. Name it.</string>
+    <string name="natureQ1CorrectAnswer">msadagascar</string>
     <!-- End of nature activity -->
     <!-- Start of space activity -->
 

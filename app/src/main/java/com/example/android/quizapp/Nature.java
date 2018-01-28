@@ -234,7 +234,7 @@ public class Nature extends MainActivity {
         return allQuestionsAnswered;
     }
 
-    public void submit (View view) {
+    public void submitNature (View view) {
         if (AllQuestionsAnsweredCheck()) {
 
             Intent result = new Intent(this, Result.class);
