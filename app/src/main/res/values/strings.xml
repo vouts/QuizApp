@@ -122,7 +122,7 @@
     <string name="natureFifthQuestionAnswerFive">Cabbage</string>
     <string name="natureFifthQuestionAnswerSix">Potato</string>
 
-    <string name="natureSixthQuestion">Finally... \nHow long does a day last in the north pole</string>
+    <string name="natureSixthQuestion">Finally... \nHow long does a day last in the north pole?</string>
     <string name="natureSixthQuestionAnswerOne">24 Hours</string>
     <string name="natureSixthQuestionAnswerTwo">1 Week</string>
     <string name="natureSixthQuestionAnswerThree">1 Month</string>
@@ -141,43 +141,43 @@
         \nNow lets begin with the questions..
     </string>
 
-    <string name="spaceFirstQuestion">This is my first question. \nLemurs are native to only one country on earth. Name it.</string>
+    <string name="spaceFirstQuestion">This is my first question. \nWhich is the largest planet of our Solar System?</string>
     <string name="spaceFirstQuestionAnswer">Enter your Answer</string>
-    <string name="spaceQ1CorrectAnswer">madagascar</string>
+    <string name="spaceQ1CorrectAnswer">jupiter</string>
 
-    <string name="spaceSecondQuestion">Ok. Next... \nWhich two elements make up water</string>
-    <string name="spaceSecondQuestionAnswerOne">Hydrogen and oxygen</string>
-    <string name="spaceSecondQuestionAnswerTwo">Sodium and calcium</string>
-    <string name="spaceSecondQuestionAnswerThree">Calcium and oxygen</string>
-    <string name="spaceSecondQuestionAnswerFour">Hydrogen and sodium</string>
-    <string name="spaceQ2CorrectAnswer">Hydrogen and oxygen</string>
+    <string name="spaceSecondQuestion">Ok. Next... \nWhich is the planet with the most visible rings?</string>
+    <string name="spaceSecondQuestionAnswerOne">Earth</string>
+    <string name="spaceSecondQuestionAnswerTwo">Jupiter</string>
+    <string name="spaceSecondQuestionAnswerThree">Saturn</string>
+    <string name="spaceSecondQuestionAnswerFour">Pluto</string>
+    <string name="spaceQ2CorrectAnswer">Saturn</string>
 
-    <string name="spaceThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the animals below belong to mammals?</string>
-    <string name="spaceThirdQuestionAnswerOne">Penguin</string>
-    <string name="spaceThirdQuestionAnswerTwo">Pangolin</string>
-    <string name="spaceThirdQuestionAnswerThree">White Shark</string>
-    <string name="spaceThirdQuestionAnswerFour">cheetah</string>
-    <string name="spaceThirdQuestionAnswerFive">Eagle</string>
-    <string name="spaceThirdQuestionAnswerSix">Panda</string>
+    <string name="spaceThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the planets below belong to our solar system?</string>
+    <string name="spaceThirdQuestionAnswerOne">Earth</string>
+    <string name="spaceThirdQuestionAnswerTwo">Ainope</string>
+    <string name="spaceThirdQuestionAnswerThree">Vasleron</string>
+    <string name="spaceThirdQuestionAnswerFour">Eathea</string>
+    <string name="spaceThirdQuestionAnswerFive">Jupiter</string>
+    <string name="spaceThirdQuestionAnswerSix">Mars</string>
 
     <string name="spaceFourthQuestion">You think you are doing great but...  \nWhich is the fastest animal on earth?</string>
     <string name="spaceFourthQuestionAnswer">Enter your Answer</string>
     <string name="spaceQ4CorrectAnswer">cheetah</string>
 
-    <string name="spaceFifthQuestion">You look tired and we still have two more questions... \nWhich of the plants below are fruits?</string>
-    <string name="spaceFifthQuestionAnswerOne">Watermelon</string>
-    <string name="spaceFifthQuestionAnswerTwo">Banana</string>
-    <string name="spaceFifthQuestionAnswerThree">Spinach</string>
-    <string name="spaceFifthQuestionAnswerFour">Tomato</string>
-    <string name="spaceFifthQuestionAnswerFive">Cabbage</string>
-    <string name="spaceFifthQuestionAnswerSix">Potato</string>
+    <string name="spaceFifthQuestion">You look tired and we still have two more questions... \nWhich of the names below belong to Jupiter moons?</string>
+    <string name="spaceFifthQuestionAnswerOne">Lysithea</string>
+    <string name="spaceFifthQuestionAnswerTwo">Elara</string>
+    <string name="spaceFifthQuestionAnswerThree">Ugleistea</string>
+    <string name="spaceFifthQuestionAnswerFour">Leda</string>
+    <string name="spaceFifthQuestionAnswerFive">Iemia</string>
+    <string name="spaceFifthQuestionAnswerSix">Jaeter</string>
 
-    <string name="spaceSixthQuestion">Finally... \nHow long does a day last in the north pole</string>
-    <string name="spaceSixthQuestionAnswerOne">24 Hours</string>
-    <string name="spaceSixthQuestionAnswerTwo">1 Week</string>
-    <string name="spaceSixthQuestionAnswerThree">1 Month</string>
-    <string name="spaceSixthQuestionAnswerFour">6 Months</string>
-    <string name="spaceQ6CorrectAnswer">6 Months</string>
+    <string name="spaceSixthQuestion">Finally... \nWhich planet has the greatest number of moons?</string>
+    <string name="spaceSixthQuestionAnswerOne">Earth</string>
+    <string name="spaceSixthQuestionAnswerTwo">Mars</string>
+    <string name="spaceSixthQuestionAnswerThree">Jupiter</string>
+    <string name="spaceSixthQuestionAnswerFour">Saturn</string>
+    <string name="spaceQ6CorrectAnswer">Jupiter</string>
     <!-- End of space activity -->
 
     <!-- Start of sports activity -->
@@ -190,6 +190,44 @@
         \nFor your sake I hope you chose correctly...
         \nNow lets begin with the questions..
     </string>
+
+    <string name="sportsFirstQuestion">This is my first question. \nWhen did Christopher Columbus reach America for the first time?</string>
+    <string name="sportsFirstQuestionAnswerOne">In 1468</string>
+    <string name="sportsFirstQuestionAnswerTwo">In 1514</string>
+    <string name="sportsFirstQuestionAnswerThree">In 1492</string>
+    <string name="sportsFirstQuestionAnswerFour">In 1453</string>
+    <string name="sportsQ1CorrectAnswer">In 1492</string>
+
+    <string name="sportsSecondQuestion">Ok. Next... \nWho was the god of thunder in greek mythology?</string>
+    <string name="sportsSecondQuestionAnswer">Enter your Answer</string>
+    <string name="sportsQ2CorrectAnswer">zeus</string>
+
+    <string name="sportsThirdQuestion">Don\'t think that i will go easy on you.... The next one is tricky... \nWhich of the names below belong to norse mythology gods?</string>
+    <string name="sportsThirdQuestionAnswerOne">Odin</string>
+    <string name="sportsThirdQuestionAnswerTwo">Fenrir</string>
+    <string name="sportsThirdQuestionAnswerThree">Sleipnir</string>
+    <string name="sportsThirdQuestionAnswerFour">Baldur</string>
+    <string name="sportsThirdQuestionAnswerFive">Freya</string>
+    <string name="sportsThirdQuestionAnswerSix">Kvasir</string>
+
+    <string name="sportsFourthQuestion">You think you are doing great but...  \nWhich year did the Berlin wall fall?</string>
+    <string name="sportsFourthQuestionAnswer">Enter your Answer</string>
+    <string name="sportsQ4CorrectAnswer">1989</string>
+
+    <string name="sportsFifthQuestion">You look tired and we still have two more questions... \nWhat was the purpose of the egyptian pyramids?</string>
+    <string name="sportsFifthQuestionAnswerOne">Temple</string>
+    <string name="sportsFifthQuestionAnswerTwo">Tomb</string>
+    <string name="sportsFifthQuestionAnswerThree">Palace</string>
+    <string name="sportsFifthQuestionAnswerFour">Prison</string>
+    <string name="sportsQ5CorrectAnswer">Tomb</string>
+
+    <string name="sportsSixthQuestion">Finally... \nWhich of the countries below are considered UK territories?</string>
+    <string name="sportsSixthQuestionAnswerOne">Gibraltar</string>
+    <string name="sportsSixthQuestionAnswerTwo">Bermuda</string>
+    <string name="sportsSixthQuestionAnswerThree">Antigua and Barbuda</string>
+    <string name="sportsSixthQuestionAnswerFour">British Honduras</string>
+    <string name="sportsSixthQuestionAnswerFive">British Virgin Islands</string>
+    <string name="sportsSixthQuestionAnswerSix">Cayman Islands</string>
     <!-- End of sports activity -->
 
     <string name="submitBtn">Submit your answers</string>

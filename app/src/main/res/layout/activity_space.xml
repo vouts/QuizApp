@@ -98,17 +98,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/notMammal1"
+                            android:id="@+id/planet1"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerOne" />
 
                         <CheckBox
-                            android:id="@+id/notMammal2"
+                            android:id="@+id/notPlanet1"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerThree" />
 
                         <CheckBox
-                            android:id="@+id/notMammal3"
+                            android:id="@+id/planet2"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerFive" />
                     </LinearLayout>
@@ -116,17 +116,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/mammal1"
+                            android:id="@+id/notPlanet2"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerTwo" />
 
                         <CheckBox
-                            android:id="@+id/mammal2"
+                            android:id="@+id/notPlanet3"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerFour" />
 
                         <CheckBox
-                            android:id="@+id/mammal3"
+                            android:id="@+id/planet3"
                             style="@style/checkBox"
                             android:text="@string/spaceThirdQuestionAnswerSix" />
                     </LinearLayout>
@@ -166,17 +166,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/fruit1"
+                            android:id="@+id/moon1"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerOne" />
 
                         <CheckBox
-                            android:id="@+id/notFruit1"
+                            android:id="@+id/notMoon1"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerThree" />
 
                         <CheckBox
-                            android:id="@+id/notFruit2"
+                            android:id="@+id/notMoon2"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerFive" />
                     </LinearLayout>
@@ -184,17 +184,17 @@
                     <LinearLayout style="@style/CheckboxColumn">
 
                         <CheckBox
-                            android:id="@+id/fruit2"
+                            android:id="@+id/moon2"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerTwo" />
 
                         <CheckBox
-                            android:id="@+id/fruit3"
+                            android:id="@+id/moon3"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerFour" />
 
                         <CheckBox
-                            android:id="@+id/notFruit3"
+                            android:id="@+id/notMoon3"
                             style="@style/checkBox"
                             android:text="@string/spaceFifthQuestionAnswerSix" />
                     </LinearLayout>

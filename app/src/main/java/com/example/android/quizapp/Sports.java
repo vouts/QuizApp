@@ -25,11 +25,11 @@ public class Sports extends AppCompatActivity {
         savedInstanceState.putString("selected_category", category);
 
         //First question state
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1);
+        RadioGroup firstQuestion = findViewById(R.id.sportsQ1);
         savedInstanceState.putInt("First_Question_Selection", firstQuestion.getCheckedRadioButtonId());
 
         //Second question state
-        EditText secondQuestion = findViewById(R.id.historyQ2);
+        EditText secondQuestion = findViewById(R.id.sportsQ2);
         savedInstanceState.putString("Second_Question_Selection", secondQuestion.getText().toString());
 
         //Third question state
@@ -47,11 +47,11 @@ public class Sports extends AppCompatActivity {
         savedInstanceState.putBoolean("Sixth_Q3_Checkbox", notGod3.isChecked());
 
         //Fourth question state
-        EditText fourthQuestion = findViewById(R.id.historyQ4);
+        EditText fourthQuestion = findViewById(R.id.sportsQ4);
         savedInstanceState.putString("Fourth_Question_Selection", fourthQuestion.getText().toString());
 
         //Fifth question state
-        RadioGroup fifthQuestion = findViewById(R.id.historyQ5);
+        RadioGroup fifthQuestion = findViewById(R.id.sportsQ5);
         savedInstanceState.putInt("Fifth_Question_Selection", fifthQuestion.getCheckedRadioButtonId());
 
         //Sixth question state
@@ -85,11 +85,11 @@ public class Sports extends AppCompatActivity {
             username = saveInstanceState.getString("typed_name");
 
             //First question state
-            RadioGroup firstQuestion = findViewById(R.id.historyQ1);
+            RadioGroup firstQuestion = findViewById(R.id.sportsQ1);
             firstQuestion.check(saveInstanceState.getInt("First_Question_Selection"));
 
             //Second question state
-            EditText secondQuestion = findViewById(R.id.historyQ2);
+            EditText secondQuestion = findViewById(R.id.sportsQ2);
             secondQuestion.setText(saveInstanceState.getString("Second_Question_Selection"));
 
             //Third question state
@@ -107,11 +107,11 @@ public class Sports extends AppCompatActivity {
             notGod3.setChecked(saveInstanceState.getBoolean("Sixth_Q3_Checkbox"));
 
             //Fourth question state
-            EditText fourthQuestion = findViewById(R.id.historyQ4);
+            EditText fourthQuestion = findViewById(R.id.sportsQ4);
             fourthQuestion.setText(saveInstanceState.getString("Fourth_Question_Selection"));
 
             //Fifth question state
-            RadioGroup fifthQuestion = findViewById(R.id.historyQ5);
+            RadioGroup fifthQuestion = findViewById(R.id.sportsQ5);
             fifthQuestion.check(saveInstanceState.getInt("Fifth_Question_Selection"));
 
             //Sixth question state
@@ -136,11 +136,11 @@ public class Sports extends AppCompatActivity {
      */
     private int calculateResult() {
         int result = 0;
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1),
-                fifthQuestion = findViewById(R.id.historyQ5);
+        RadioGroup firstQuestion = findViewById(R.id.sportsQ1),
+                fifthQuestion = findViewById(R.id.sportsQ5);
 
-        EditText secondQuestion = findViewById(R.id.historyQ2),
-                fourthQuestion = findViewById(R.id.historyQ4);
+        EditText secondQuestion = findViewById(R.id.sportsQ2),
+                fourthQuestion = findViewById(R.id.sportsQ4);
 
         CheckBox god1 = findViewById(R.id.god1),
                 god2 = findViewById(R.id.god2),
@@ -158,20 +158,20 @@ public class Sports extends AppCompatActivity {
                 fifthQuestionSelected = findViewById(fifthQuestion.getCheckedRadioButtonId());
         ;
 
-        if (firstQuestionSelected.getText().toString() == getString(R.string.historyQ1CorrectAnswer)) {
+        if (firstQuestionSelected.getText().toString() == getString(R.string.sportsQ1CorrectAnswer)) {
             result++;
         }
 
-        if (fifthQuestionSelected.getText().toString() == getString(R.string.historyQ5CorrectAnswer)) {
+        if (fifthQuestionSelected.getText().toString() == getString(R.string.sportsQ5CorrectAnswer)) {
             result++;
         }
 
-        if (secondQuestion.getText().toString().toLowerCase().equals(getString(R.string.historyQ2CorrectAnswer))) {
+        if (secondQuestion.getText().toString().toLowerCase().equals(getString(R.string.sportsQ2CorrectAnswer))) {
             result++;
 
         }
 
-        if (  Integer.parseInt(fourthQuestion.getText().toString()) == Integer.parseInt(getString(R.string.historyQ4CorrectAnswer))){
+        if (  Integer.parseInt(fourthQuestion.getText().toString()) == Integer.parseInt(getString(R.string.sportsQ4CorrectAnswer))){
             result++;
 
         }
@@ -194,11 +194,11 @@ public class Sports extends AppCompatActivity {
     private Boolean AllQuestionsAnsweredCheck() {
         Boolean allQuestionsAnswered = true;
 
-        RadioGroup firstQuestion = findViewById(R.id.historyQ1),
-                fifthQuestion = findViewById(R.id.historyQ5);
+        RadioGroup firstQuestion = findViewById(R.id.sportsQ1),
+                fifthQuestion = findViewById(R.id.sportsQ5);
 
-        EditText secondQuestion = findViewById(R.id.historyQ2),
-                fourthQuestion = findViewById(R.id.historyQ4);
+        EditText secondQuestion = findViewById(R.id.sportsQ2),
+                fourthQuestion = findViewById(R.id.sportsQ4);
 
         CheckBox god1 = findViewById(R.id.god1),
                 god2 = findViewById(R.id.god2),
@@ -234,7 +234,7 @@ public class Sports extends AppCompatActivity {
         return allQuestionsAnswered;
     }
 
-    public void submitSports (View view) {
+    public void submitSports(View view) {
         if (AllQuestionsAnsweredCheck()) {
 
             Intent result = new Intent(this, Result.class);
