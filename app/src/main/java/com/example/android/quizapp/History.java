@@ -243,7 +243,7 @@ public class History extends AppCompatActivity {
             Intent result = new Intent(this, Result.class);
             result.putExtra("EXTRA_SELECTED_CATEGORY", category);
             result.putExtra("EXTRA_TYPED_NAME", username);
-            result.putExtra("EXTRA_RESULT", calculateResult());
+            result.putExtra("EXTRA_RESULT", Integer.toString(calculateResult()));
             startActivity(result);
         } else {
             Toast toast = Toast.makeText(this, R.string.answerAllQuestions, Toast.LENGTH_SHORT);

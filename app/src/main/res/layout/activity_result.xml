@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/colorPrimary"
     tools:context="com.example.android.quizapp.Result">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout style="@style/wrapper">
+
+        <TextView
+            android:id="@+id/resultTitle"
+            style="@style/title"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/resultImage"
+            style="@style/imageStyle" />
+
+        <TextView
+            android:id="@+id/resultText"
+            style="@style/introText"
+            android:text="@string/introText" />
+
+
+        <Button
+            android:id="@+id/startBtn"
+            style="@style/btnStyle"
+            android:onClick="Reset"
+            android:text="@string/playAgain" />
+    </LinearLayout>
+</ScrollView>

@@ -230,7 +230,34 @@
     <string name="sportsSixthQuestionAnswerSix">The Reds</string>
     <!-- End of sports activity -->
 
+    <!-- Start of Result activity -->
+    <string name="shadowTitle">SUCCEEDED</string>
+    <string name="demonTitle">FAILED</string>
+    <string name="shadowOutro">
+        The shadows merged again shaping this green eyed figure.
+        \nZurtok\'s voice echoed one last time.
+        \nSo you succeeded %1$s even though you chose %2$s...
+        \nI shall remember your name...
+        \nAs promised, now you are free to go.
+        \nBut before you do hear me out one last time.
+        \nWhen i was alive i was known with a different name, and i was a librarian. As such i value knowledge at most.
+        \nTherefore i shall be your guardian untill the end of time.
+        \nFarewell my friend...
+    </string>
+    <string name="demonOutro">
+        The shadows merged again but this time shaping a beast with red eyes.
+        \nZurtok\'s voice echoed one last time.
+        \nSo you failed %1$s even though you chose %2$s...
+        \nYour name will be forgotten.
+        \nAnd you will be erased from existence...
+        \nI gave you a chance that others would only dream of, and yet you failed.
+        \nBegone Stranger...
+    </string>
+    <string name="playAgain">Play Again</string>
+    <string name="toastMsg">You answered %1$d out of 6 questions correctly.</string>
+    <!-- End of sports activity -->
     <string name="submitBtn">Submit your answers</string>
     <string name="answerAllQuestions">Answer all questions!!</string>
+
 
 </resources>
